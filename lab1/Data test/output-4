@@ -1,0 +1,9 @@
+Symbol Table
+X21=4 Error: This variable is multiply defined; last value used.
+
+Memory Map
+0:  1004
+1:  1004
+2:  1004
+3:  2156
+4:  3456
