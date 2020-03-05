@@ -3,7 +3,9 @@
 
 Contents:
 ### 1. Two-Pass Linker. Language: C Data: 02/25/2020
-   Purpose: Symbol Resolution & Relocation
+   Purpose: 
+   
+               Symbol Resolution & Relocation
 ### 2. Scheduling algorithm. Language: C Date: 03/05/2020
    Algorithms: 
    
