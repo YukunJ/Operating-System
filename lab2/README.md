@@ -26,6 +26,7 @@ I mainly mimic an OOP style programming despite the fact that I am in the C worl
 I self-implement a single-linked list, with its data membership being a pointer to a process, so we can modify the process information accordingly. Also I implement several comparison functions to be passed into C standard "qsort" function. These functions helps to sort either by process's arrival time, or order in the input file, or I/O remaining time, or Penalty ratio.
 
 In each algorithm, there exist 3 Linked list permanently throughout the algorithm execution:
+
 	readyHead: the linked-list of process that are ready to be put to CPU running.
 	ioHead: the linked-list of process that are doing I/O, namely blocked
 	waitingHead: the linked-list of process that has not arrival yet.
