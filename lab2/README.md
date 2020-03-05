@@ -21,9 +21,9 @@ There are mainly 2 points to be aware of to make sure the input is valid.
 	I don't necessarily require all the input on 1 single line. But I need each quadruple to be 1 single line, meaning you should not split a quadruple on 2 lines. Because the function "fscanf" require exact match pattern, and I don't have "\n" in that pattern. In brieft, if you follow the 7 sample inputs structures, it will work find and properly.
 	
 ### 3. My design pattern
-	I mainly mimic an OOP style programming despite the fact that I am in the C world. I use "struct Process" to encapsulate all the information about one process in a struct. In the main function, we allocate 4 array of processes, pass each one to corresponding algorithm functions, since array are passed by reference, each algoirthm should have a distinct array without  interference each other. Also there is a "struct CPU" which mimic a single-core CPU.
-	I self-implement a single-linked list, with its data membership being a pointer to a process, so we can modify the process information accordingly. Also I implement several comparison functions to be passed into C standard "qsort" function. These functions helps to sort either by process's arrival time, or order in the input file, or I/O remaining time, or Penalty ratio.
-	In each algorithm, there exist 3 Linked list permanently throughout the algorithm execution:
+I mainly mimic an OOP style programming despite the fact that I am in the C world. I use "struct Process" to encapsulate all the information about one process in a struct. In the main function, we allocate 4 array of processes, pass each one to corresponding algorithm functions, since array are passed by reference, each algoirthm should have a distinct array without  interference each other. Also there is a "struct CPU" which mimic a single-core CPU.
+I self-implement a single-linked list, with its data membership being a pointer to a process, so we can modify the process information accordingly. Also I implement several comparison functions to be passed into C standard "qsort" function. These functions helps to sort either by process's arrival time, or order in the input file, or I/O remaining time, or Penalty ratio.
+In each algorithm, there exist 3 Linked list permanently throughout the algorithm execution:
 	readyHead: the linked-list of process that are ready to be put to CPU running.
 	ioHead: the linked-list of process that are doing I/O, namely blocked
 	waitingHead: the linked-list of process that has not arrival yet.
@@ -31,4 +31,4 @@ There are mainly 2 points to be aware of to make sure the input is valid.
 	In each algorithm, the general process is the same: we increment the time by 1 second, check if any process has arrived, if any process has finished I/O, we sort the readyList according to a certain criteria needed by the algorithm. Then we check the "myCPU", if no process is running, try to drag one from readylist to run. If there is a process running, check if it has finished/ need blocking / run out of quantum. After all the checkings, we let the time increment by 1.
 	
 ### 4. Contact Info
-	if you run into any trouble understanding my design or compiling the code, please contact me by jy2363@nyu.edu. Reply is guaranteed within 1/2 hour.
+if you run into any trouble understanding my design or compiling the code, please contact me by jy2363@nyu.edu. Reply is guaranteed within 1/2 hour.
