@@ -16,4 +16,10 @@ Contents:
                3. Last-Come-First-Serve
                
                4. Highest-Penalty-Ratio-next
+### 3. Resouece Allocation algorithm. Language: C++ Date: 04/02/2020
+   Algorithms:
+   
+                 1. Optimistic Resource Allocator
+                 
+                 2. Banker's algorithm
                
