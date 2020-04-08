@@ -1,0 +1,80 @@
+During  0 - 1
+  Task 1 does initialization.
+  Task 2 does initialization.
+During  1 - 2
+  Task 1 delayed 5.
+  Task 2 delayed 5.
+During  2 - 3
+  Task 1 delayed 4.
+  Task 2 delayed 4.
+During  3 - 4
+  Task 1 delayed 3.
+  Task 2 delayed 3.
+During  4 - 5
+  Task 1 delayed 2.
+  Task 2 delayed 2.
+During  5 - 6
+  Task 1 delayed 1.
+  Task 2 delayed 1.
+During  6 - 7
+  Task 1 completes its request (resource[1]: requested = 1, remaining = 3)
+  Task 2 waiting (resource[1]: requested = 1) unsafe
+During  7 - 8
+  First check blocked tasks:
+    Task 2 request still cannot be granted.
+  Task 1 delayed 5.
+During  8 - 9
+  First check blocked tasks:
+    Task 2 request still cannot be granted.
+  Task 1 delayed 4.
+During  9 - 10
+  First check blocked tasks:
+    Task 2 request still cannot be granted.
+  Task 1 delayed 3.
+During  10 - 11
+  First check blocked tasks:
+    Task 2 request still cannot be granted.
+  Task 1 delayed 2.
+During  11 - 12
+  First check blocked tasks:
+    Task 2 request still cannot be granted.
+  Task 1 delayed 1.
+During  12 - 13
+  First check blocked tasks:
+    Task 2 request still cannot be granted.
+  Task 1 completes its release (resource[1]: released = 1, available next cycle = 4)
+During  13 - 14
+  First check blocked tasks:
+  Task 2 completes its request (resource[1]: requested = 1, remaining = 3)
+  Task 1 delayed 5.
+During  14 - 15
+  Task 1 delayed 4.
+  Task 2 delayed 5.
+During  15 - 16
+  Task 1 delayed 3.
+  Task 2 delayed 4.
+During  16 - 17
+  Task 1 delayed 2.
+  Task 2 delayed 3.
+During  17 - 18
+  Task 1 delayed 1 and terminates (at 18).
+  Task 2 delayed 2.
+During  18 - 19
+  Task 2 delayed 1.
+During  19 - 20
+  Task 2 completes its release (resource[1]: released = 1, available next cycle = 4)
+During  20 - 21
+  Task 2 delayed 5.
+During  21 - 22
+  Task 2 delayed 4.
+During  22 - 23
+  Task 2 delayed 3.
+During  23 - 24
+  Task 2 delayed 2.
+During  24 - 25
+  Task 2 delayed 1 and terminates (at 25).
+
+	Run	Wait	Wait%
+Task 1	18	0	0%
+Task 2	25	7	28%
+Total 	43	7	16%

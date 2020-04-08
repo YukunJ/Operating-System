@@ -1,0 +1,4 @@
+              FIFO                             BANKER'S
+     Task 1      aborted              Task 1        4   0   0%
+     Task 2      5   1  20%           Task 2        7   3  43%
+     total       5   1  20%           total        11   3  27%

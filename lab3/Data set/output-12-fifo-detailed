@@ -1,0 +1,24 @@
+During 0-1 each task completes its initiate.
+
+During 1-2
+   Task 1 completes its request (i.e. the request is granted)
+   Task 2 computes (1 of 2 cycles)
+
+During 2-3
+   Task 1 computes (1 of 3 cycles)
+   Task 2 computes (2 of 2 cycles)
+
+During 3-4
+   Task 1 computes (2 of 3 cycles)
+   Task 2 completes its request
+
+During 4-5
+   Task 1 computes (3 of 3 cycles)
+   Task 2 computes (1 of 1 cycle)
+
+During 5-6
+   Task 1 releases
+   Task 2 releases and is finished (at 6)
+
+During 6-7
+   Task 1 computes (1 of 1 cycle) and is finished

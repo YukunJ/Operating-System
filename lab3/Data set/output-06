@@ -1,0 +1,8 @@
+  Banker aborts task 3 before run begins:
+       claim for resourse 1 (5) exceeds number of units present (4)
+                       FIFO                    BANKER'S
+       Task 1       aborted            Task 1       9   4   44%
+       Task 2       5   1   20%        Task 2       4   0    0%
+       Task 3       aborted            Task 3       aborted
+       Task 4       9   5   56%        Task 4       7   3   43%
+       total       14   6   43%        total       20   7   35%

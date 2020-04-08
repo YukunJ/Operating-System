@@ -1,0 +1,48 @@
+During 0-1:
+   Initiate tasks 1 and 2
+
+During 1-2:
+   Request granted to task 1 (state is safe)
+   Denied request to task 2 (state is not safe), set task 2 to block
+(waiting time for task 2 = 1)
+   Three units available at 2
+
+During 2-3:
+   Checking request for task 2, deny request to task 2 (state is not safe)
+(waiting time for task 2 = 2)
+   Request granted to task 1 (state is safe)
+   No Units available at 3
+
+During 3-4:
+   Checking request for blocked task 2, deny request to task 2 (state is
+not safe) (waiting time for task 2 = 3)
+   Task 1 releases 4 units (available at 4)
+   Four units available at 4
+
+During 4-5:
+   Checking request for blocked task 2, request granted to task 2 (state is
+safe)
+   Denied request to task 1 (state is not safe), set task 1 to block
+(waiting time for task 1 = 1)
+   Three units available at 5
+
+During 5-6:
+   Checking request for blocked task 1, deny request to task 1 (state is
+not safe) (waiting time for task 1 = 2)
+   Granting request to task 2
+   No units available at 6
+
+During 6-7:
+   Checking request for blocked task 1, deny request to task 1 (state is
+not safe) (waiting time for task 1 = 3)
+   Task 2 releases 4 units (availabe at 7) and terminates at 7
+   Four units available at 7
+
+During 7-8:
+   Checking request for blocked task 1, request granted to task 1 (state is
+safe)
+   Two units available at 8
+
+During 8-9:
+   Task 1 releases 2 units (available at 9) and terminates at 9
+   Four units available at 9

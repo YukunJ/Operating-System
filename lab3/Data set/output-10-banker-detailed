@@ -1,0 +1,52 @@
+During 0-1
+   Task 1 completes its first initiate
+   Task 2 completes its first initiate
+
+During 1-2
+   Task 1 completes its second initiate
+   Task 2 completes its second initiate
+
+During 2-3
+   Task 1 completes its request
+   Task 2's request cannot be granted (not safe).  So 2 is blocked.
+Avail = 1,2 (1 unit of 1, 2 units of 2) at 3
+
+During 3-4
+   Banker first checks blocked tasks but cannot grant 2's request (not safe).
+   Task 1 completes its request
+Avail = 0,2 at 4
+
+During 4-5
+   Banker first checks blocked tasks but cannot grant 2's request (not safe).
+   Task 1 completes its request
+Avail = 0,1 at 5
+
+During 5-6
+   Banker first checks blocked tasks but cannot grant 2's request (not safe).
+   Task 1 releases two units (available at 6)
+Avail = 2,1 at 6
+
+During 6-7
+   Banker first checks blocked tasks but cannot grant 2's request (not safe).
+   Task 1 releases one unit (available at 7) and terminates at 7
+Avail = 2,2 at 7
+
+During 7-8
+   Banker first checks blocked tasks and can grant 2's request.
+Avail = 1,2 at 8
+
+During 8-9
+   Task 2 completes its request
+Avail = 0,2 at 9
+
+During 9-10
+   Task 2 completes its request
+Avail = 0,1 at 10
+
+During 10-11
+   Task 2 releases 2 units (available at 11)
+Avail = 2,1 at 11
+
+During 11-12
+   Task 2 releases 1 unit (available at 12) and terminates at 12
+Avail = 2,2 at 12

@@ -1,0 +1,11 @@
+During 0-1 each task completes its initiate.
+
+During 1-2
+   Task 1 completes its request (i.e., the request is granted).
+   Task 2 completes its request (i.e., the request is granted).
+Two items available at 2.
+
+During 2-3
+   Task 1 releases 1 unit (available at 3) and terminates at 3.
+   Task 2 releases 1 unit (available at 3) and terminates at 3.
+Four item available at 3.

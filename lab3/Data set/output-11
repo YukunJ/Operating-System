@@ -1,0 +1,5 @@
+                       FIFO                    BANKER'S
+       Task 1      17   8   47%        Task 1      19   10   53%
+       Task 2      11   2   18%        Task 2      11    2   18%
+       Task 3      13   6   46%        Task 3      15    8   53%
+       total       41  16   39%        total       45   20   44%

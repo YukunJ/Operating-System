@@ -1,0 +1,9 @@
+During cycle 3-4 of Banker's algorithms
+   Task 2's request exceeds its claim; aborted; 2 units available next cycle
+
+                       FIFO                    BANKER'S
+       Task 1       aborted            Task 1       9   4   44%
+       Task 2       aborted            Task 2       aborted
+       Task 3       7   3   43%        Task 3       7   3   43%
+       total        7   3   43%        total       16   7   44%
+

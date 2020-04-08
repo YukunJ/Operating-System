@@ -1,0 +1,27 @@
+During 0-1 each task completes its initiate.
+
+During 1-2
+   Task 1 completes its request (i.e. the request is granted)
+   Task 2's request cannot be granted (not safe).  So 2 is blocked
+Three units available at 2.
+
+During 2-3
+   Banker first checks blocked tasks but cannot grant 2's request (not safe)
+   task 1 completes its request.
+No units available at 3.
+
+During 3-4
+   Banker first checks blocked tasks but cannot grant 2's request.
+   task 1 releases four units (available at 4) and terminates at 4.
+Four units available at 4
+
+During 4-5
+   Banker first checks blocked tasks and can grant 2's request.
+Three units available at 5
+
+During 5-6
+   Task 2 completes its request
+No units available at 6
+
+During 6-7
+   Task 2 releases fur units (available at 7) and terminates at 7.

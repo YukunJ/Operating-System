@@ -1,0 +1,50 @@
+During 0-1 each task completes its initiate.
+
+During 1-2
+   Task 1 completes its request (i.e. the request is granted)
+   Task 2 completes its request (i.e. the request is granted)
+   Task 3 completes its request (i.e. the request is granted)
+   Task 4's request cannot be granted
+
+During 2-3 (0 units available)
+   First check blocked tasks:
+       task 4's request still cannot be granted
+   Task 1 releases 1 unit (becomes available 3-4)
+   Task 2's request cannot be granted
+   Task 3's request cannot be granted
+
+During 3-4 (1 unit available)
+   First check blocked requests:
+       Tasks 4's request cannot be granted
+       Task 2 completes its request
+       Tasks 3's request cannot be granted
+   Task 1's request cannot be granted
+
+During 4-5 (0 units available)
+   First check blocked requests:
+       Task 4's request cannot be granted
+       Task 3's request cannot be granted
+       Task 1's request cannot be granted
+   Task 2 releases 2 units (become available 5-6) and terminates at 5
+
+During 5-6 (2 units available)
+   First check blocked requests:
+       Task 4 completes its request (for 2 units)
+       Task 3's request cannot be granted
+       Task 1's request cannot be granted
+
+During 6-7 (0 units available)
+   First check blocked requests:
+       Task 3's request cannot be granted
+       Task 1's request cannot be granted
+   Task 4's request cannot be granted
+
+According to the spec task 1 is aborted now, but it is holding no resources.
+Hence task 3 is also aborted and its 2 units are available next cycle (7-8)
+
+During 7-8 (2 units available)
+   First check blocked requests:
+       Task 4 completes its request
+
+During 8-9 (1 unit available)
+   Task 4 releases 3 units and finishes (at 9)

@@ -1,0 +1,48 @@
+During 0-1 each task completes its initiate.
+
+During 1-2
+   Task 1 completes its request for 1 of 1 (i.e. the request is granted)
+   Task 2 completes its request for 1 of 1 (i.e. the request is granted)
+   Task 3's request for 2 of 1 cannot be granted (not safe).  So 3 is blocked
+
+During 2-3
+   Banker first checks blocked tasks but cannot grant 3's request (not safe)
+   task 1 releases 1 of 1
+   task 2 requests 1 of 1 and it is granted (See below for crucial comment)
+
+During 3-4
+   Banker first checks blocked tasks but cannot grant 3's request (not safe)
+   task 1's request for 3 of 1 cannot be granted.  So 1 is blocked.
+   task 2 releases and is finished (at 4)
+
+During 4-5
+   Banker checks and can satisfy 3's request (check 3 BEFORE 1)
+   Banker checks but cannot satisfy 1's request
+
+During 5-6
+   Banker checks but cannot satisfy 1's request
+   Task 3 issues a request that is granted
+
+During 6-7
+   Banker checks but cannot satisfy 1's request
+   Task 3 releases and is finished (at 7)
+
+During 7-8
+   Banker checks and can satisfy 1's request
+
+During 8-9
+   Task 1 releases and is finished (at 9)
+
+
+Crucial comment.
+
+Do *NOT* make the mistake of thinking that the reason task 2's request
+was granted during 2-3 was because task 1 released a resource during
+2-3.  That is *NOT* the reason.  The resource released during 2-3 is
+not available until the 3-4 interval.  The reason task 2's request was
+granted was that the state is such that granting the request is safe.
+
+Please note that at this one instant (time 2) it is safe to grant the
+request of task 2 and *NOT* safe to grant the request of task 3.
+
+End of crucial comment

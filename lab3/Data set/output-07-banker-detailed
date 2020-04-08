@@ -1,0 +1,47 @@
+During 0-1 each task completes its initiate
+
+During 1-2
+   Task 1 completes its request (i.e. the request is granted)
+   Task 2 completes its request (i.e. the request is granted)
+   Task 3's request cannot be granted
+
+During 2-3
+   First check blocked tasks:
+       task 3's request cannot be granted
+   Task 1 releases
+   Task 2 completes its request (see below)
+
+During 3-4
+   First check blocked tasks:
+       task 3's request cannot be granted
+   Task 1's request cannot be granted
+   Task 2's request exceeds its claim; aborted; 2 units available next cycle
+
+During 4-5
+   First check blocked tasks:
+       Task 3 completes its request
+       Task 1's request cannot be granted
+
+During 5-6
+   First check blocked tasks:
+       Task 1's request cannot be granted
+   Task 3 completes its request
+
+During 6-7
+   First check blocked tasks:
+       Task 1's request cannot be granted
+   Task 3 releases and is finished (at 7)
+
+During 7-8
+   First check blocked tasks:
+       Task 1 completes its request
+
+During 8-9
+   Task 1 releases and is finished (at 9)
+
+
+NOTE:  The reason task 2 could complete its request during 2-3 is
+*NOT* because task 1 did a release.  The released item is not
+available until 3-4.  The reason is that the state is safe *without*
+the item task 1 is releasing.  Task 3's request, if granted, would
+have lead to an unsafe state.

@@ -1,0 +1,4 @@
+              FIFO                             BANKER'S
+     Task 1      3   0   0%           Task 1        3   0   0%
+     Task 2      3   0   0%           Task 2        5   2  40%
+     total       6   0   0%           total         8   2  25%

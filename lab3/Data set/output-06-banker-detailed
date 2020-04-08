@@ -1,0 +1,50 @@
+During 0-1
+    Tasks 1, 2, and 4 complete initiate
+    Task 3 is aborted (claim exceeds total in system)
+    At 1, 4 units available
+
+During 1-2
+    Task 1 completes its request (i.e., the request is granted)
+    Task 2 completes its request (i.e., the request is granted)
+    Task 4's request cannot be granted (state would not be safe)
+    At 2, 2 units available; task 4 has waited 1
+
+During 2-3
+    First check blocked tasks
+        Task 4's request cannot be granted
+    Task 1 releases
+    Task 2 completes its request
+    At 3, 2 units available; task 4 has waited 1
+
+During 3-4
+    First check blocked tasks
+        Task 4's request cannot be granted
+    Task 1's request cannot be granted
+    Task 2 releases and terminates at 4
+    At 4, 4 units available; task 4 has waited 3; task 1 has waited 1
+
+During 4-5
+    First check blocked tasks
+        Task 4 completes its request
+	Task 1's request cannot be granted
+    At 5, 2 units available; task 4 has waited 3; task 1 has waited 2
+
+During 5-6
+    First check blocked tasks
+        Task 1's request cannot be granted
+    Task 4 completes its request
+    At 6, 1 unit available;  task 4 has waited 3; task 1 has waited 3
+
+During 6-7
+    First check blocked tasks
+        Task 1's request cannot be granted
+    Task 4 releases and terminates at 7
+    At 7, 4 units available; task 4 has waited 3; task 1 has waited 4
+
+During 7-8
+    First check blocked tasks
+        Task 1 completes its request
+    At 8, 1 unit available; task 4 has waited 3; task 1 has waited 4
+
+During 8-9
+    Task releases and terminates at 9

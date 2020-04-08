@@ -1,0 +1,21 @@
+2 2 2 2
+initiate  1 0 1 2
+initiate  1 0 2 2
+request   1 0 1 1
+request   1 0 1 1
+request   1 0 2 1
+release   1 0 1 2
+
+release   1 0 2 1
+terminate 1 0 0 0
+
+
+initiate  2 0 1 2
+initiate  2 0 2 2
+request   2 0 1 1
+
+request   2 0 1 1
+request   2 0 2 1
+release   2 0 1 2
+release   2 0 2 1
+terminate 2 0 0 0

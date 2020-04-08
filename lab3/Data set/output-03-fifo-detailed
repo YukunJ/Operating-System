@@ -1,0 +1,20 @@
+During 0-1 each task completes its initiate.
+
+During 1-2
+   Task 1 completes its request (i.e. the request is granted)
+   Task 2 completes its request (i.e. the request is granted)
+   Task 3 completes its request (i.e. the request is granted)
+
+During 2-3
+   Task 1's request cannot be granted
+   Task 2's request cannot be granted
+   Task 3's request cannot be granted
+
+According to the spec, tasks 1 and 2 are aborted now and their
+resources are available next cycle (3-4).
+
+During 3-4
+   Task 3's pending request is granted
+
+During 4-5
+   Task 3 releases and is finished (at 5)

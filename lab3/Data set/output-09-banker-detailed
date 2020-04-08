@@ -1,0 +1,35 @@
+During 0-1 each task completes its first initiate
+
+During 1-2 each task completes its second initiate
+
+During 2-3
+   Task 1 completes its request (i.e., the request is granted)
+   Task 2's request cannot be granted
+
+During 3-4
+   First check blocked tasks:
+       task 2's request cannot be granted
+   Task 1 completes its request
+
+During 4-5
+   First check blocked tasks:
+       task 2's request cannot be granted
+   Task 1 releases
+
+During 5-6
+   First check blocked tasks:
+       task 2's request cannot be granted
+   Task 1 releases and terminates (at 6)
+
+During 6-7
+   First check blocked tasks:
+      Task 2 completes its request
+
+During 7-8
+   Task 2 completes its request
+
+During 8-9
+   Task 2 releases
+
+During 9-10
+   Task 2 releases and terminates (at 10)
