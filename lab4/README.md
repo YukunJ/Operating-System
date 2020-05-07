@@ -14,7 +14,7 @@ g++ -std=c++11 -o paging paging.cpp
 ```
 then Type in:
 ```
-./banker 10 10 20 1 10 lru 0
+./paging 10 10 20 1 10 lru 0
 ```
 Here you go!
 The Last number could be 0 (no-debug print) or 1(with debug info), it's up to you~I implement them both.
