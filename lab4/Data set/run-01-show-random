@@ -1,0 +1,32 @@
+The machine size is 10.
+The page size is 10.
+The process size is 20.
+The job mix number is 1.
+The number of references per process is 10.
+The replacement algorithm is lru.
+The level of debugging output is 11
+
+1 references word 11 (page 1) at time 1: Fault, using free frame 0.
+1 uses random number: 1804289383
+1 references word 12 (page 1) at time 2: Hit in frame 0
+1 uses random number: 846930886
+1 references word 13 (page 1) at time 3: Hit in frame 0
+1 uses random number: 1681692777
+1 references word 14 (page 1) at time 4: Hit in frame 0
+1 uses random number: 1714636915
+1 references word 15 (page 1) at time 5: Hit in frame 0
+1 uses random number: 1957747793
+1 references word 16 (page 1) at time 6: Hit in frame 0
+1 uses random number: 424238335
+1 references word 17 (page 1) at time 7: Hit in frame 0
+1 uses random number: 719885386
+1 references word 18 (page 1) at time 8: Hit in frame 0
+1 uses random number: 1649760492
+1 references word 19 (page 1) at time 9: Hit in frame 0
+1 uses random number: 596516649
+1 references word 0 (page 0) at time 10: Fault, evicting page 1 of 1 from frame 0.
+1 uses random number: 1189641421
+
+Process 1 had 2 faults and 9.0 average residency.
+
+The total number of faults is 2 and the overall average residency is 9.0.

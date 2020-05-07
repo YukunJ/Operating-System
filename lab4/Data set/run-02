@@ -1,0 +1,13 @@
+The machine size is 10.
+The page size is 10.
+The process size is 10.
+The job mix number is 1.
+The number of references per process is 100.
+The replacement algorithm is lru.
+The level of debugging output is 0
+
+Process 1 had 1 faults.
+     With no evictions, the average residence is undefined.
+
+The total number of faults is 1.
+     With no evictions, the overall average residence is undefined.

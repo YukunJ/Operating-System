@@ -1,0 +1,95 @@
+The machine size is 20.
+The page size is 10.
+The process size is 10.
+The job mix number is 2.
+The number of references per process is 10.
+The replacement algorithm is fifo.
+The level of debugging output is 11
+
+1 references word 1 (page 0) at time 1: Fault, using free frame 1.
+1 uses random number: 1804289383
+1 references word 2 (page 0) at time 2: Hit in frame 1
+1 uses random number: 846930886
+1 references word 3 (page 0) at time 3: Hit in frame 1
+1 uses random number: 1681692777
+2 references word 2 (page 0) at time 4: Fault, using free frame 0.
+2 uses random number: 1714636915
+2 references word 3 (page 0) at time 5: Hit in frame 0
+2 uses random number: 1957747793
+2 references word 4 (page 0) at time 6: Hit in frame 0
+2 uses random number: 424238335
+3 references word 3 (page 0) at time 7: Fault, evicting page 0 of 1 from frame 1.
+3 uses random number: 719885386
+3 references word 4 (page 0) at time 8: Hit in frame 1
+3 uses random number: 1649760492
+3 references word 5 (page 0) at time 9: Hit in frame 1
+3 uses random number: 596516649
+4 references word 4 (page 0) at time 10: Fault, evicting page 0 of 2 from frame 0.
+4 uses random number: 1189641421
+4 references word 5 (page 0) at time 11: Hit in frame 0
+4 uses random number: 1025202362
+4 references word 6 (page 0) at time 12: Hit in frame 0
+4 uses random number: 1350490027
+1 references word 4 (page 0) at time 13: Fault, evicting page 0 of 3 from frame 1.
+1 uses random number: 783368690
+1 references word 5 (page 0) at time 14: Hit in frame 1
+1 uses random number: 1102520059
+1 references word 6 (page 0) at time 15: Hit in frame 1
+1 uses random number: 2044897763
+2 references word 5 (page 0) at time 16: Fault, evicting page 0 of 4 from frame 0.
+2 uses random number: 1967513926
+2 references word 6 (page 0) at time 17: Hit in frame 0
+2 uses random number: 1365180540
+2 references word 7 (page 0) at time 18: Hit in frame 0
+2 uses random number: 1540383426
+3 references word 6 (page 0) at time 19: Fault, evicting page 0 of 1 from frame 1.
+3 uses random number: 304089172
+3 references word 7 (page 0) at time 20: Hit in frame 1
+3 uses random number: 1303455736
+3 references word 8 (page 0) at time 21: Hit in frame 1
+3 uses random number: 35005211
+4 references word 7 (page 0) at time 22: Fault, evicting page 0 of 2 from frame 0.
+4 uses random number: 521595368
+4 references word 8 (page 0) at time 23: Hit in frame 0
+4 uses random number: 294702567
+4 references word 9 (page 0) at time 24: Hit in frame 0
+4 uses random number: 1726956429
+1 references word 7 (page 0) at time 25: Fault, evicting page 0 of 3 from frame 1.
+1 uses random number: 336465782
+1 references word 8 (page 0) at time 26: Hit in frame 1
+1 uses random number: 861021530
+1 references word 9 (page 0) at time 27: Hit in frame 1
+1 uses random number: 278722862
+2 references word 8 (page 0) at time 28: Fault, evicting page 0 of 4 from frame 0.
+2 uses random number: 233665123
+2 references word 9 (page 0) at time 29: Hit in frame 0
+2 uses random number: 2145174067
+2 references word 0 (page 0) at time 30: Hit in frame 0
+2 uses random number: 468703135
+3 references word 9 (page 0) at time 31: Fault, evicting page 0 of 1 from frame 1.
+3 uses random number: 1101513929
+3 references word 0 (page 0) at time 32: Hit in frame 1
+3 uses random number: 1801979802
+3 references word 1 (page 0) at time 33: Hit in frame 1
+3 uses random number: 1315634022
+4 references word 0 (page 0) at time 34: Fault, evicting page 0 of 2 from frame 0.
+4 uses random number: 635723058
+4 references word 1 (page 0) at time 35: Hit in frame 0
+4 uses random number: 1369133069
+4 references word 2 (page 0) at time 36: Hit in frame 0
+4 uses random number: 1125898167
+1 references word 0 (page 0) at time 37: Fault, evicting page 0 of 3 from frame 1.
+1 uses random number: 1059961393
+2 references word 1 (page 0) at time 38: Fault, evicting page 0 of 4 from frame 0.
+2 uses random number: 2089018456
+3 references word 2 (page 0) at time 39: Fault, evicting page 0 of 1 from frame 1.
+3 uses random number: 628175011
+4 references word 3 (page 0) at time 40: Fault, evicting page 0 of 2 from frame 0.
+4 uses random number: 1656478042
+
+Process 1 had 4 faults and 5.0 average residency.
+Process 2 had 4 faults and 5.0 average residency.
+Process 3 had 4 faults and 6.0 average residency.
+Process 4 had 4 faults and 5.333333333333333 average residency.
+
+The total number of faults is 16 and the overall average residency is 5.285714285714286.

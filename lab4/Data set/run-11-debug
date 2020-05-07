@@ -1,0 +1,415 @@
+The machine size is 90.
+The page size is 10.
+The process size is 40.
+The job mix number is 4.
+The number of references per process is 100.
+The replacement algorithm is lru.
+The level of debugging output is 1
+
+1 references word 31 (page 3) at time 1: Fault, using free frame 8.
+1 references word 26 (page 2) at time 2: Fault, using free frame 7.
+1 references word 27 (page 2) at time 3: Hit in frame 7
+2 references word 22 (page 2) at time 4: Fault, using free frame 6.
+2 references word 26 (page 2) at time 5: Hit in frame 6
+2 references word 30 (page 3) at time 6: Fault, using free frame 5.
+3 references word 13 (page 1) at time 7: Fault, using free frame 4.
+3 references word 14 (page 1) at time 8: Hit in frame 4
+3 references word 9 (page 0) at time 9: Fault, using free frame 3.
+4 references word 4 (page 0) at time 10: Fault, using free frame 2.
+4 references word 39 (page 3) at time 11: Fault, using free frame 1.
+4 references word 0 (page 0) at time 12: Hit in frame 2
+1 references word 22 (page 2) at time 13: Hit in frame 7
+1 references word 23 (page 2) at time 14: Hit in frame 7
+1 references word 24 (page 2) at time 15: Hit in frame 7
+2 references word 31 (page 3) at time 16: Hit in frame 5
+2 references word 35 (page 3) at time 17: Hit in frame 5
+2 references word 36 (page 3) at time 18: Hit in frame 5
+3 references word 10 (page 1) at time 19: Hit in frame 4
+3 references word 11 (page 1) at time 20: Hit in frame 4
+3 references word 12 (page 1) at time 21: Hit in frame 4
+4 references word 4 (page 0) at time 22: Hit in frame 2
+4 references word 5 (page 0) at time 23: Hit in frame 2
+4 references word 6 (page 0) at time 24: Hit in frame 2
+1 references word 19 (page 1) at time 25: Fault, using free frame 0.
+1 references word 20 (page 2) at time 26: Hit in frame 7
+1 references word 21 (page 2) at time 27: Hit in frame 7
+2 references word 37 (page 3) at time 28: Hit in frame 5
+2 references word 1 (page 0) at time 29: Fault, evicting page 3 of 1 from frame 8.
+2 references word 2 (page 0) at time 30: Hit in frame 8
+3 references word 13 (page 1) at time 31: Hit in frame 4
+3 references word 8 (page 0) at time 32: Hit in frame 3
+3 references word 9 (page 0) at time 33: Hit in frame 3
+4 references word 22 (page 2) at time 34: Fault, evicting page 2 of 2 from frame 6.
+4 references word 26 (page 2) at time 35: Hit in frame 6
+4 references word 21 (page 2) at time 36: Hit in frame 6
+1 references word 22 (page 2) at time 37: Hit in frame 7
+1 references word 17 (page 1) at time 38: Hit in frame 0
+1 references word 18 (page 1) at time 39: Hit in frame 0
+2 references word 3 (page 0) at time 40: Hit in frame 8
+2 references word 4 (page 0) at time 41: Hit in frame 8
+2 references word 8 (page 0) at time 42: Hit in frame 8
+3 references word 10 (page 1) at time 43: Hit in frame 4
+3 references word 14 (page 1) at time 44: Hit in frame 4
+3 references word 15 (page 1) at time 45: Hit in frame 4
+4 references word 22 (page 2) at time 46: Hit in frame 6
+4 references word 4 (page 0) at time 47: Hit in frame 2
+4 references word 5 (page 0) at time 48: Hit in frame 2
+1 references word 13 (page 1) at time 49: Hit in frame 0
+1 references word 14 (page 1) at time 50: Hit in frame 0
+1 references word 15 (page 1) at time 51: Hit in frame 0
+2 references word 9 (page 0) at time 52: Hit in frame 8
+2 references word 13 (page 1) at time 53: Fault, evicting page 3 of 4 from frame 1.
+2 references word 14 (page 1) at time 54: Hit in frame 1
+3 references word 16 (page 1) at time 55: Hit in frame 4
+3 references word 17 (page 1) at time 56: Hit in frame 4
+3 references word 18 (page 1) at time 57: Hit in frame 4
+4 references word 13 (page 1) at time 58: Fault, evicting page 3 of 2 from frame 5.
+4 references word 14 (page 1) at time 59: Hit in frame 5
+4 references word 4 (page 0) at time 60: Hit in frame 2
+1 references word 16 (page 1) at time 61: Hit in frame 0
+1 references word 17 (page 1) at time 62: Hit in frame 0
+1 references word 18 (page 1) at time 63: Hit in frame 0
+2 references word 15 (page 1) at time 64: Hit in frame 1
+2 references word 16 (page 1) at time 65: Hit in frame 1
+2 references word 17 (page 1) at time 66: Hit in frame 1
+3 references word 19 (page 1) at time 67: Hit in frame 4
+3 references word 20 (page 2) at time 68: Fault, evicting page 0 of 3 from frame 3.
+3 references word 21 (page 2) at time 69: Hit in frame 3
+4 references word 16 (page 1) at time 70: Hit in frame 5
+4 references word 7 (page 0) at time 71: Hit in frame 2
+4 references word 8 (page 0) at time 72: Hit in frame 2
+1 references word 13 (page 1) at time 73: Hit in frame 0
+1 references word 14 (page 1) at time 74: Hit in frame 0
+1 references word 15 (page 1) at time 75: Hit in frame 0
+2 references word 18 (page 1) at time 76: Hit in frame 1
+2 references word 19 (page 1) at time 77: Hit in frame 1
+2 references word 20 (page 2) at time 78: Fault, evicting page 2 of 1 from frame 7.
+3 references word 25 (page 2) at time 79: Hit in frame 3
+3 references word 20 (page 2) at time 80: Hit in frame 3
+3 references word 21 (page 2) at time 81: Hit in frame 3
+4 references word 12 (page 1) at time 82: Hit in frame 5
+4 references word 34 (page 3) at time 83: Fault, evicting page 2 of 4 from frame 6.
+4 references word 38 (page 3) at time 84: Hit in frame 6
+1 references word 16 (page 1) at time 85: Hit in frame 0
+1 references word 17 (page 1) at time 86: Hit in frame 0
+1 references word 12 (page 1) at time 87: Hit in frame 0
+2 references word 24 (page 2) at time 88: Hit in frame 7
+2 references word 28 (page 2) at time 89: Hit in frame 7
+2 references word 29 (page 2) at time 90: Hit in frame 7
+3 references word 22 (page 2) at time 91: Hit in frame 3
+3 references word 23 (page 2) at time 92: Hit in frame 3
+3 references word 27 (page 2) at time 93: Hit in frame 3
+4 references word 20 (page 2) at time 94: Fault, evicting page 0 of 2 from frame 8.
+4 references word 21 (page 2) at time 95: Hit in frame 8
+4 references word 18 (page 1) at time 96: Hit in frame 5
+1 references word 13 (page 1) at time 97: Hit in frame 0
+1 references word 8 (page 0) at time 98: Fault, evicting page 1 of 3 from frame 4.
+1 references word 9 (page 0) at time 99: Hit in frame 4
+2 references word 33 (page 3) at time 100: Fault, evicting page 0 of 4 from frame 2.
+2 references word 34 (page 3) at time 101: Hit in frame 2
+2 references word 35 (page 3) at time 102: Hit in frame 2
+3 references word 28 (page 2) at time 103: Hit in frame 3
+3 references word 29 (page 2) at time 104: Hit in frame 3
+3 references word 30 (page 3) at time 105: Fault, evicting page 1 of 2 from frame 1.
+4 references word 19 (page 1) at time 106: Hit in frame 5
+4 references word 20 (page 2) at time 107: Hit in frame 8
+4 references word 21 (page 2) at time 108: Hit in frame 8
+1 references word 10 (page 1) at time 109: Hit in frame 0
+1 references word 11 (page 1) at time 110: Hit in frame 0
+1 references word 12 (page 1) at time 111: Hit in frame 0
+2 references word 39 (page 3) at time 112: Hit in frame 2
+2 references word 0 (page 0) at time 113: Fault, evicting page 3 of 4 from frame 6.
+2 references word 1 (page 0) at time 114: Hit in frame 6
+3 references word 31 (page 3) at time 115: Hit in frame 1
+3 references word 26 (page 2) at time 116: Hit in frame 3
+3 references word 30 (page 3) at time 117: Hit in frame 1
+4 references word 16 (page 1) at time 118: Hit in frame 5
+4 references word 20 (page 2) at time 119: Hit in frame 8
+4 references word 21 (page 2) at time 120: Hit in frame 8
+1 references word 7 (page 0) at time 121: Hit in frame 4
+1 references word 8 (page 0) at time 122: Hit in frame 4
+1 references word 9 (page 0) at time 123: Hit in frame 4
+2 references word 2 (page 0) at time 124: Hit in frame 6
+2 references word 3 (page 0) at time 125: Hit in frame 6
+2 references word 4 (page 0) at time 126: Hit in frame 6
+3 references word 34 (page 3) at time 127: Hit in frame 1
+3 references word 35 (page 3) at time 128: Hit in frame 1
+3 references word 36 (page 3) at time 129: Hit in frame 1
+4 references word 25 (page 2) at time 130: Hit in frame 8
+4 references word 26 (page 2) at time 131: Hit in frame 8
+4 references word 30 (page 3) at time 132: Fault, evicting page 2 of 2 from frame 7.
+1 references word 10 (page 1) at time 133: Hit in frame 0
+1 references word 5 (page 0) at time 134: Hit in frame 4
+1 references word 6 (page 0) at time 135: Hit in frame 4
+2 references word 5 (page 0) at time 136: Hit in frame 6
+2 references word 6 (page 0) at time 137: Hit in frame 6
+2 references word 7 (page 0) at time 138: Hit in frame 6
+3 references word 31 (page 3) at time 139: Hit in frame 1
+3 references word 32 (page 3) at time 140: Hit in frame 1
+3 references word 33 (page 3) at time 141: Hit in frame 1
+4 references word 31 (page 3) at time 142: Hit in frame 7
+4 references word 35 (page 3) at time 143: Hit in frame 7
+4 references word 36 (page 3) at time 144: Hit in frame 7
+1 references word 7 (page 0) at time 145: Hit in frame 4
+1 references word 8 (page 0) at time 146: Hit in frame 4
+1 references word 9 (page 0) at time 147: Hit in frame 4
+2 references word 11 (page 1) at time 148: Fault, evicting page 3 of 2 from frame 2.
+2 references word 12 (page 1) at time 149: Hit in frame 2
+2 references word 13 (page 1) at time 150: Hit in frame 2
+3 references word 37 (page 3) at time 151: Hit in frame 1
+3 references word 38 (page 3) at time 152: Hit in frame 1
+3 references word 33 (page 3) at time 153: Hit in frame 1
+4 references word 37 (page 3) at time 154: Hit in frame 7
+4 references word 38 (page 3) at time 155: Hit in frame 7
+4 references word 30 (page 3) at time 156: Hit in frame 7
+1 references word 10 (page 1) at time 157: Hit in frame 0
+1 references word 5 (page 0) at time 158: Hit in frame 4
+1 references word 6 (page 0) at time 159: Hit in frame 4
+2 references word 17 (page 1) at time 160: Hit in frame 2
+2 references word 18 (page 1) at time 161: Hit in frame 2
+2 references word 19 (page 1) at time 162: Hit in frame 2
+3 references word 34 (page 3) at time 163: Hit in frame 1
+3 references word 35 (page 3) at time 164: Hit in frame 1
+3 references word 36 (page 3) at time 165: Hit in frame 1
+4 references word 20 (page 2) at time 166: Hit in frame 8
+4 references word 21 (page 2) at time 167: Hit in frame 8
+4 references word 16 (page 1) at time 168: Hit in frame 5
+1 references word 1 (page 0) at time 169: Hit in frame 4
+1 references word 2 (page 0) at time 170: Hit in frame 4
+1 references word 3 (page 0) at time 171: Hit in frame 4
+2 references word 23 (page 2) at time 172: Fault, evicting page 2 of 3 from frame 3.
+2 references word 24 (page 2) at time 173: Hit in frame 3
+2 references word 25 (page 2) at time 174: Hit in frame 3
+3 references word 37 (page 3) at time 175: Hit in frame 1
+3 references word 32 (page 3) at time 176: Hit in frame 1
+3 references word 33 (page 3) at time 177: Hit in frame 1
+4 references word 17 (page 1) at time 178: Hit in frame 5
+4 references word 12 (page 1) at time 179: Hit in frame 5
+4 references word 35 (page 3) at time 180: Hit in frame 7
+1 references word 4 (page 0) at time 181: Hit in frame 4
+1 references word 5 (page 0) at time 182: Hit in frame 4
+1 references word 6 (page 0) at time 183: Hit in frame 4
+2 references word 26 (page 2) at time 184: Hit in frame 3
+2 references word 30 (page 3) at time 185: Fault, evicting page 0 of 2 from frame 6.
+2 references word 34 (page 3) at time 186: Hit in frame 6
+3 references word 37 (page 3) at time 187: Hit in frame 1
+3 references word 1 (page 0) at time 188: Fault, evicting page 1 of 1 from frame 0.
+3 references word 2 (page 0) at time 189: Hit in frame 0
+4 references word 39 (page 3) at time 190: Hit in frame 7
+4 references word 13 (page 1) at time 191: Hit in frame 5
+4 references word 14 (page 1) at time 192: Hit in frame 5
+1 references word 1 (page 0) at time 193: Hit in frame 4
+1 references word 36 (page 3) at time 194: Fault, evicting page 1 of 2 from frame 2.
+1 references word 31 (page 3) at time 195: Hit in frame 2
+2 references word 38 (page 3) at time 196: Hit in frame 6
+2 references word 39 (page 3) at time 197: Hit in frame 6
+2 references word 0 (page 0) at time 198: Fault, evicting page 2 of 4 from frame 8.
+3 references word 6 (page 0) at time 199: Hit in frame 0
+3 references word 7 (page 0) at time 200: Hit in frame 0
+3 references word 8 (page 0) at time 201: Hit in frame 0
+4 references word 15 (page 1) at time 202: Hit in frame 5
+4 references word 16 (page 1) at time 203: Hit in frame 5
+4 references word 17 (page 1) at time 204: Hit in frame 5
+1 references word 32 (page 3) at time 205: Hit in frame 2
+1 references word 33 (page 3) at time 206: Hit in frame 2
+1 references word 34 (page 3) at time 207: Hit in frame 2
+2 references word 1 (page 0) at time 208: Hit in frame 8
+2 references word 2 (page 0) at time 209: Hit in frame 8
+2 references word 6 (page 0) at time 210: Hit in frame 8
+3 references word 9 (page 0) at time 211: Hit in frame 0
+3 references word 10 (page 1) at time 212: Fault, evicting page 2 of 2 from frame 3.
+3 references word 11 (page 1) at time 213: Hit in frame 3
+4 references word 18 (page 1) at time 214: Hit in frame 5
+4 references word 19 (page 1) at time 215: Hit in frame 5
+4 references word 14 (page 1) at time 216: Hit in frame 5
+1 references word 35 (page 3) at time 217: Hit in frame 2
+1 references word 36 (page 3) at time 218: Hit in frame 2
+1 references word 31 (page 3) at time 219: Hit in frame 2
+2 references word 7 (page 0) at time 220: Hit in frame 8
+2 references word 8 (page 0) at time 221: Hit in frame 8
+2 references word 9 (page 0) at time 222: Hit in frame 8
+3 references word 12 (page 1) at time 223: Hit in frame 3
+3 references word 7 (page 0) at time 224: Hit in frame 0
+3 references word 8 (page 0) at time 225: Hit in frame 0
+4 references word 2 (page 0) at time 226: Fault, evicting page 3 of 3 from frame 1.
+4 references word 3 (page 0) at time 227: Hit in frame 1
+4 references word 4 (page 0) at time 228: Hit in frame 1
+1 references word 32 (page 3) at time 229: Hit in frame 2
+1 references word 33 (page 3) at time 230: Hit in frame 2
+1 references word 34 (page 3) at time 231: Hit in frame 2
+2 references word 10 (page 1) at time 232: Fault, evicting page 3 of 4 from frame 7.
+2 references word 11 (page 1) at time 233: Hit in frame 7
+2 references word 12 (page 1) at time 234: Hit in frame 7
+3 references word 9 (page 0) at time 235: Hit in frame 0
+3 references word 10 (page 1) at time 236: Hit in frame 3
+3 references word 11 (page 1) at time 237: Hit in frame 3
+4 references word 5 (page 0) at time 238: Hit in frame 1
+4 references word 6 (page 0) at time 239: Hit in frame 1
+4 references word 1 (page 0) at time 240: Hit in frame 1
+1 references word 35 (page 3) at time 241: Hit in frame 2
+1 references word 36 (page 3) at time 242: Hit in frame 2
+1 references word 37 (page 3) at time 243: Hit in frame 2
+2 references word 13 (page 1) at time 244: Hit in frame 7
+2 references word 14 (page 1) at time 245: Hit in frame 7
+2 references word 18 (page 1) at time 246: Hit in frame 7
+3 references word 12 (page 1) at time 247: Hit in frame 3
+3 references word 13 (page 1) at time 248: Hit in frame 3
+3 references word 14 (page 1) at time 249: Hit in frame 3
+4 references word 5 (page 0) at time 250: Hit in frame 1
+4 references word 6 (page 0) at time 251: Hit in frame 1
+4 references word 7 (page 0) at time 252: Hit in frame 1
+1 references word 38 (page 3) at time 253: Hit in frame 2
+1 references word 39 (page 3) at time 254: Hit in frame 2
+1 references word 0 (page 0) at time 255: Hit in frame 4
+2 references word 19 (page 1) at time 256: Hit in frame 7
+2 references word 20 (page 2) at time 257: Fault, evicting page 3 of 2 from frame 6.
+2 references word 21 (page 2) at time 258: Hit in frame 6
+3 references word 15 (page 1) at time 259: Hit in frame 3
+3 references word 16 (page 1) at time 260: Hit in frame 3
+3 references word 11 (page 1) at time 261: Hit in frame 3
+4 references word 22 (page 2) at time 262: Fault, evicting page 1 of 4 from frame 5.
+4 references word 23 (page 2) at time 263: Hit in frame 5
+4 references word 24 (page 2) at time 264: Hit in frame 5
+1 references word 1 (page 0) at time 265: Hit in frame 4
+1 references word 36 (page 3) at time 266: Hit in frame 2
+1 references word 37 (page 3) at time 267: Hit in frame 2
+2 references word 22 (page 2) at time 268: Hit in frame 6
+2 references word 23 (page 2) at time 269: Hit in frame 6
+2 references word 27 (page 2) at time 270: Hit in frame 6
+3 references word 12 (page 1) at time 271: Hit in frame 3
+3 references word 7 (page 0) at time 272: Hit in frame 0
+3 references word 8 (page 0) at time 273: Hit in frame 0
+4 references word 10 (page 1) at time 274: Fault, evicting page 0 of 2 from frame 8.
+4 references word 14 (page 1) at time 275: Hit in frame 8
+4 references word 15 (page 1) at time 276: Hit in frame 8
+1 references word 38 (page 3) at time 277: Hit in frame 2
+1 references word 33 (page 3) at time 278: Hit in frame 2
+1 references word 28 (page 2) at time 279: Fault, evicting page 0 of 4 from frame 1.
+2 references word 31 (page 3) at time 280: Fault, evicting page 1 of 2 from frame 7.
+2 references word 35 (page 3) at time 281: Hit in frame 7
+2 references word 36 (page 3) at time 282: Hit in frame 7
+3 references word 9 (page 0) at time 283: Hit in frame 0
+3 references word 13 (page 1) at time 284: Hit in frame 3
+3 references word 17 (page 1) at time 285: Hit in frame 3
+4 references word 30 (page 3) at time 286: Fault, evicting page 2 of 4 from frame 5.
+4 references word 31 (page 3) at time 287: Hit in frame 5
+4 references word 26 (page 2) at time 288: Fault, evicting page 0 of 1 from frame 4.
+1 references word 29 (page 2) at time 289: Hit in frame 1
+1 references word 30 (page 3) at time 290: Hit in frame 2
+1 references word 25 (page 2) at time 291: Hit in frame 1
+2 references word 37 (page 3) at time 292: Hit in frame 7
+2 references word 38 (page 3) at time 293: Hit in frame 7
+2 references word 2 (page 0) at time 294: Fault, evicting page 2 of 2 from frame 6.
+3 references word 12 (page 1) at time 295: Hit in frame 3
+3 references word 13 (page 1) at time 296: Hit in frame 3
+3 references word 14 (page 1) at time 297: Hit in frame 3
+4 references word 27 (page 2) at time 298: Hit in frame 4
+4 references word 31 (page 3) at time 299: Hit in frame 5
+4 references word 32 (page 3) at time 300: Hit in frame 5
+1 references word 26 (page 2) at time 301: Hit in frame 1
+1 references word 27 (page 2) at time 302: Hit in frame 1
+1 references word 22 (page 2) at time 303: Hit in frame 1
+2 references word 3 (page 0) at time 304: Hit in frame 6
+2 references word 4 (page 0) at time 305: Hit in frame 6
+2 references word 5 (page 0) at time 306: Hit in frame 6
+3 references word 15 (page 1) at time 307: Hit in frame 3
+3 references word 16 (page 1) at time 308: Hit in frame 3
+3 references word 17 (page 1) at time 309: Hit in frame 3
+4 references word 27 (page 2) at time 310: Hit in frame 4
+4 references word 28 (page 2) at time 311: Hit in frame 4
+4 references word 19 (page 1) at time 312: Hit in frame 8
+1 references word 23 (page 2) at time 313: Hit in frame 1
+1 references word 18 (page 1) at time 314: Fault, evicting page 0 of 3 from frame 0.
+1 references word 13 (page 1) at time 315: Hit in frame 0
+2 references word 6 (page 0) at time 316: Hit in frame 6
+2 references word 7 (page 0) at time 317: Hit in frame 6
+2 references word 8 (page 0) at time 318: Hit in frame 6
+3 references word 18 (page 1) at time 319: Hit in frame 3
+3 references word 19 (page 1) at time 320: Hit in frame 3
+3 references word 20 (page 2) at time 321: Fault, evicting page 3 of 1 from frame 2.
+4 references word 14 (page 1) at time 322: Hit in frame 8
+4 references word 15 (page 1) at time 323: Hit in frame 8
+4 references word 16 (page 1) at time 324: Hit in frame 8
+1 references word 14 (page 1) at time 325: Hit in frame 0
+1 references word 15 (page 1) at time 326: Hit in frame 0
+1 references word 16 (page 1) at time 327: Hit in frame 0
+2 references word 9 (page 0) at time 328: Hit in frame 6
+2 references word 10 (page 1) at time 329: Fault, evicting page 3 of 2 from frame 7.
+2 references word 11 (page 1) at time 330: Hit in frame 7
+3 references word 21 (page 2) at time 331: Hit in frame 2
+3 references word 22 (page 2) at time 332: Hit in frame 2
+3 references word 23 (page 2) at time 333: Hit in frame 2
+4 references word 20 (page 2) at time 334: Hit in frame 4
+4 references word 22 (page 2) at time 335: Hit in frame 4
+4 references word 23 (page 2) at time 336: Hit in frame 4
+1 references word 17 (page 1) at time 337: Hit in frame 0
+1 references word 18 (page 1) at time 338: Hit in frame 0
+1 references word 19 (page 1) at time 339: Hit in frame 0
+2 references word 15 (page 1) at time 340: Hit in frame 7
+2 references word 16 (page 1) at time 341: Hit in frame 7
+2 references word 20 (page 2) at time 342: Fault, evicting page 3 of 4 from frame 5.
+3 references word 24 (page 2) at time 343: Hit in frame 2
+3 references word 25 (page 2) at time 344: Hit in frame 2
+3 references word 26 (page 2) at time 345: Hit in frame 2
+4 references word 2 (page 0) at time 346: Fault, evicting page 2 of 1 from frame 1.
+4 references word 6 (page 0) at time 347: Hit in frame 1
+4 references word 35 (page 3) at time 348: Fault, evicting page 1 of 3 from frame 3.
+1 references word 20 (page 2) at time 349: Fault, evicting page 1 of 4 from frame 8.
+1 references word 21 (page 2) at time 350: Hit in frame 8
+1 references word 22 (page 2) at time 351: Hit in frame 8
+2 references word 21 (page 2) at time 352: Hit in frame 5
+2 references word 25 (page 2) at time 353: Hit in frame 5
+2 references word 26 (page 2) at time 354: Hit in frame 5
+3 references word 27 (page 2) at time 355: Hit in frame 2
+3 references word 22 (page 2) at time 356: Hit in frame 2
+3 references word 23 (page 2) at time 357: Hit in frame 2
+4 references word 4 (page 0) at time 358: Hit in frame 1
+4 references word 5 (page 0) at time 359: Hit in frame 1
+4 references word 5 (page 0) at time 360: Hit in frame 1
+1 references word 17 (page 1) at time 361: Hit in frame 0
+1 references word 18 (page 1) at time 362: Hit in frame 0
+1 references word 13 (page 1) at time 363: Hit in frame 0
+2 references word 27 (page 2) at time 364: Hit in frame 5
+2 references word 28 (page 2) at time 365: Hit in frame 5
+2 references word 29 (page 2) at time 366: Hit in frame 5
+3 references word 24 (page 2) at time 367: Hit in frame 2
+3 references word 25 (page 2) at time 368: Hit in frame 2
+3 references word 20 (page 2) at time 369: Hit in frame 2
+4 references word 6 (page 0) at time 370: Hit in frame 1
+4 references word 7 (page 0) at time 371: Hit in frame 1
+4 references word 8 (page 0) at time 372: Hit in frame 1
+1 references word 14 (page 1) at time 373: Hit in frame 0
+1 references word 9 (page 0) at time 374: Fault, evicting page 0 of 2 from frame 6.
+1 references word 10 (page 1) at time 375: Hit in frame 0
+2 references word 30 (page 3) at time 376: Fault, evicting page 2 of 4 from frame 4.
+2 references word 31 (page 3) at time 377: Hit in frame 4
+2 references word 32 (page 3) at time 378: Hit in frame 4
+3 references word 21 (page 2) at time 379: Hit in frame 2
+3 references word 22 (page 2) at time 380: Hit in frame 2
+3 references word 23 (page 2) at time 381: Hit in frame 2
+4 references word 9 (page 0) at time 382: Hit in frame 1
+4 references word 10 (page 1) at time 383: Fault, evicting page 1 of 2 from frame 7.
+4 references word 33 (page 3) at time 384: Hit in frame 3
+1 references word 11 (page 1) at time 385: Hit in frame 0
+1 references word 12 (page 1) at time 386: Hit in frame 0
+1 references word 13 (page 1) at time 387: Hit in frame 0
+2 references word 33 (page 3) at time 388: Hit in frame 4
+2 references word 34 (page 3) at time 389: Hit in frame 4
+2 references word 35 (page 3) at time 390: Hit in frame 4
+3 references word 24 (page 2) at time 391: Hit in frame 2
+3 references word 25 (page 2) at time 392: Hit in frame 2
+3 references word 26 (page 2) at time 393: Hit in frame 2
+4 references word 34 (page 3) at time 394: Hit in frame 3
+4 references word 35 (page 3) at time 395: Hit in frame 3
+4 references word 36 (page 3) at time 396: Hit in frame 3
+1 references word 14 (page 1) at time 397: Hit in frame 0
+2 references word 39 (page 3) at time 398: Hit in frame 4
+3 references word 30 (page 3) at time 399: Fault, evicting page 2 of 1 from frame 8.
+4 references word 37 (page 3) at time 400: Hit in frame 3
+
+Process 1 had 9 faults and 100.14285714285714 average residency.
+Process 2 had 18 faults and 54.6875 average residency.
+Process 3 had 8 faults and 106.16666666666667 average residency.
+Process 4 had 15 faults and 76.25 average residency.
+
+The total number of faults is 50 and the overall average residency is 76.29268292682927.

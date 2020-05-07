@@ -1,0 +1,14 @@
+The machine size is 90.
+The page size is 10.
+The process size is 40.
+The job mix number is 4.
+The number of references per process is 100.
+The replacement algorithm is lru.
+The level of debugging output is 0
+
+Process 1 had 9 faults and 100.14285714285714 average residency.
+Process 2 had 18 faults and 54.6875 average residency.
+Process 3 had 8 faults and 106.16666666666667 average residency.
+Process 4 had 15 faults and 76.25 average residency.
+
+The total number of faults is 50 and the overall average residency is 76.29268292682927.

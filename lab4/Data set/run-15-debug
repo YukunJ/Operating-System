@@ -1,0 +1,28 @@
+The machine size is 10.
+The page size is 5.
+The process size is 30.
+The job mix number is 4.
+The number of references per process is 3.
+The replacement algorithm is random.
+The level of debugging output is 1
+
+1 references word 21 (page 4) at time 1: Fault, using free frame 1.
+1 references word 16 (page 3) at time 2: Fault, using free frame 0.
+1 references word 17 (page 3) at time 3: Hit in frame 0
+2 references word 12 (page 2) at time 4: Fault, evicting page 4 of 1 from frame 1.
+2 references word 16 (page 3) at time 5: Fault, evicting page 2 of 2 from frame 1.
+2 references word 17 (page 3) at time 6: Hit in frame 1
+3 references word 3 (page 0) at time 7: Fault, evicting page 3 of 2 from frame 1.
+3 references word 4 (page 0) at time 8: Hit in frame 1
+3 references word 5 (page 1) at time 9: Fault, evicting page 0 of 3 from frame 1.
+4 references word 24 (page 4) at time 10: Fault, evicting page 1 of 3 from frame 1.
+4 references word 16 (page 3) at time 11: Fault, evicting page 3 of 1 from frame 0.
+4 references word 20 (page 4) at time 12: Hit in frame 1
+
+Process 1 had 2 faults and 6.0 average residency.
+Process 2 had 2 faults and 1.5 average residency.
+Process 3 had 2 faults and 1.5 average residency.
+Process 4 had 2 faults.
+     With no evictions, the average residence is undefined.
+
+The total number of faults is 8 and the overall average residency is 3.0.

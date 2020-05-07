@@ -1,0 +1,112 @@
+The machine size is 40.
+The page size is 10.
+The process size is 90.
+The job mix number is 1.
+The number of references per process is 100.
+The replacement algorithm is fifo.
+The level of debugging output is 1
+
+1 references word 21 (page 2) at time 1: Fault, using free frame 3.
+1 references word 22 (page 2) at time 2: Hit in frame 3
+1 references word 23 (page 2) at time 3: Hit in frame 3
+1 references word 24 (page 2) at time 4: Hit in frame 3
+1 references word 25 (page 2) at time 5: Hit in frame 3
+1 references word 26 (page 2) at time 6: Hit in frame 3
+1 references word 27 (page 2) at time 7: Hit in frame 3
+1 references word 28 (page 2) at time 8: Hit in frame 3
+1 references word 29 (page 2) at time 9: Hit in frame 3
+1 references word 30 (page 3) at time 10: Fault, using free frame 2.
+1 references word 31 (page 3) at time 11: Hit in frame 2
+1 references word 32 (page 3) at time 12: Hit in frame 2
+1 references word 33 (page 3) at time 13: Hit in frame 2
+1 references word 34 (page 3) at time 14: Hit in frame 2
+1 references word 35 (page 3) at time 15: Hit in frame 2
+1 references word 36 (page 3) at time 16: Hit in frame 2
+1 references word 37 (page 3) at time 17: Hit in frame 2
+1 references word 38 (page 3) at time 18: Hit in frame 2
+1 references word 39 (page 3) at time 19: Hit in frame 2
+1 references word 40 (page 4) at time 20: Fault, using free frame 1.
+1 references word 41 (page 4) at time 21: Hit in frame 1
+1 references word 42 (page 4) at time 22: Hit in frame 1
+1 references word 43 (page 4) at time 23: Hit in frame 1
+1 references word 44 (page 4) at time 24: Hit in frame 1
+1 references word 45 (page 4) at time 25: Hit in frame 1
+1 references word 46 (page 4) at time 26: Hit in frame 1
+1 references word 47 (page 4) at time 27: Hit in frame 1
+1 references word 48 (page 4) at time 28: Hit in frame 1
+1 references word 49 (page 4) at time 29: Hit in frame 1
+1 references word 50 (page 5) at time 30: Fault, using free frame 0.
+1 references word 51 (page 5) at time 31: Hit in frame 0
+1 references word 52 (page 5) at time 32: Hit in frame 0
+1 references word 53 (page 5) at time 33: Hit in frame 0
+1 references word 54 (page 5) at time 34: Hit in frame 0
+1 references word 55 (page 5) at time 35: Hit in frame 0
+1 references word 56 (page 5) at time 36: Hit in frame 0
+1 references word 57 (page 5) at time 37: Hit in frame 0
+1 references word 58 (page 5) at time 38: Hit in frame 0
+1 references word 59 (page 5) at time 39: Hit in frame 0
+1 references word 60 (page 6) at time 40: Fault, evicting page 2 of 1 from frame 3.
+1 references word 61 (page 6) at time 41: Hit in frame 3
+1 references word 62 (page 6) at time 42: Hit in frame 3
+1 references word 63 (page 6) at time 43: Hit in frame 3
+1 references word 64 (page 6) at time 44: Hit in frame 3
+1 references word 65 (page 6) at time 45: Hit in frame 3
+1 references word 66 (page 6) at time 46: Hit in frame 3
+1 references word 67 (page 6) at time 47: Hit in frame 3
+1 references word 68 (page 6) at time 48: Hit in frame 3
+1 references word 69 (page 6) at time 49: Hit in frame 3
+1 references word 70 (page 7) at time 50: Fault, evicting page 3 of 1 from frame 2.
+1 references word 71 (page 7) at time 51: Hit in frame 2
+1 references word 72 (page 7) at time 52: Hit in frame 2
+1 references word 73 (page 7) at time 53: Hit in frame 2
+1 references word 74 (page 7) at time 54: Hit in frame 2
+1 references word 75 (page 7) at time 55: Hit in frame 2
+1 references word 76 (page 7) at time 56: Hit in frame 2
+1 references word 77 (page 7) at time 57: Hit in frame 2
+1 references word 78 (page 7) at time 58: Hit in frame 2
+1 references word 79 (page 7) at time 59: Hit in frame 2
+1 references word 80 (page 8) at time 60: Fault, evicting page 4 of 1 from frame 1.
+1 references word 81 (page 8) at time 61: Hit in frame 1
+1 references word 82 (page 8) at time 62: Hit in frame 1
+1 references word 83 (page 8) at time 63: Hit in frame 1
+1 references word 84 (page 8) at time 64: Hit in frame 1
+1 references word 85 (page 8) at time 65: Hit in frame 1
+1 references word 86 (page 8) at time 66: Hit in frame 1
+1 references word 87 (page 8) at time 67: Hit in frame 1
+1 references word 88 (page 8) at time 68: Hit in frame 1
+1 references word 89 (page 8) at time 69: Hit in frame 1
+1 references word 0 (page 0) at time 70: Fault, evicting page 5 of 1 from frame 0.
+1 references word 1 (page 0) at time 71: Hit in frame 0
+1 references word 2 (page 0) at time 72: Hit in frame 0
+1 references word 3 (page 0) at time 73: Hit in frame 0
+1 references word 4 (page 0) at time 74: Hit in frame 0
+1 references word 5 (page 0) at time 75: Hit in frame 0
+1 references word 6 (page 0) at time 76: Hit in frame 0
+1 references word 7 (page 0) at time 77: Hit in frame 0
+1 references word 8 (page 0) at time 78: Hit in frame 0
+1 references word 9 (page 0) at time 79: Hit in frame 0
+1 references word 10 (page 1) at time 80: Fault, evicting page 6 of 1 from frame 3.
+1 references word 11 (page 1) at time 81: Hit in frame 3
+1 references word 12 (page 1) at time 82: Hit in frame 3
+1 references word 13 (page 1) at time 83: Hit in frame 3
+1 references word 14 (page 1) at time 84: Hit in frame 3
+1 references word 15 (page 1) at time 85: Hit in frame 3
+1 references word 16 (page 1) at time 86: Hit in frame 3
+1 references word 17 (page 1) at time 87: Hit in frame 3
+1 references word 18 (page 1) at time 88: Hit in frame 3
+1 references word 19 (page 1) at time 89: Hit in frame 3
+1 references word 20 (page 2) at time 90: Fault, evicting page 7 of 1 from frame 2.
+1 references word 21 (page 2) at time 91: Hit in frame 2
+1 references word 22 (page 2) at time 92: Hit in frame 2
+1 references word 23 (page 2) at time 93: Hit in frame 2
+1 references word 24 (page 2) at time 94: Hit in frame 2
+1 references word 25 (page 2) at time 95: Hit in frame 2
+1 references word 26 (page 2) at time 96: Hit in frame 2
+1 references word 27 (page 2) at time 97: Hit in frame 2
+1 references word 28 (page 2) at time 98: Hit in frame 2
+1 references word 29 (page 2) at time 99: Hit in frame 2
+1 references word 30 (page 3) at time 100: Fault, evicting page 8 of 1 from frame 1.
+
+Process 1 had 11 faults and 39.857142857142854 average residency.
+
+The total number of faults is 11 and the overall average residency is 39.857142857142854.

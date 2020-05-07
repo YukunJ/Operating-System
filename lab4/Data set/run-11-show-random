@@ -1,0 +1,842 @@
+The machine size is 90.
+The page size is 10.
+The process size is 40.
+The job mix number is 4.
+The number of references per process is 100.
+The replacement algorithm is lru.
+The level of debugging output is 11
+
+1 references word 31 (page 3) at time 1: Fault, using free frame 8.
+1 uses random number: 1804289383
+1 references word 26 (page 2) at time 2: Fault, using free frame 7.
+1 uses random number: 846930886
+1 references word 27 (page 2) at time 3: Hit in frame 7
+1 uses random number: 1681692777
+2 references word 22 (page 2) at time 4: Fault, using free frame 6.
+2 uses random number: 1714636915
+2 references word 26 (page 2) at time 5: Hit in frame 6
+2 uses random number: 1957747793
+2 references word 30 (page 3) at time 6: Fault, using free frame 5.
+2 uses random number: 424238335
+3 references word 13 (page 1) at time 7: Fault, using free frame 4.
+3 uses random number: 719885386
+3 references word 14 (page 1) at time 8: Hit in frame 4
+3 uses random number: 1649760492
+3 references word 9 (page 0) at time 9: Fault, using free frame 3.
+3 uses random number: 596516649
+4 references word 4 (page 0) at time 10: Fault, using free frame 2.
+4 uses random number: 1189641421
+4 references word 39 (page 3) at time 11: Fault, using free frame 1.
+4 uses random number: 1025202362
+4 references word 0 (page 0) at time 12: Hit in frame 2
+4 uses random number: 1350490027
+1 references word 22 (page 2) at time 13: Hit in frame 7
+1 uses random number: 783368690
+1 references word 23 (page 2) at time 14: Hit in frame 7
+1 uses random number: 1102520059
+1 references word 24 (page 2) at time 15: Hit in frame 7
+1 uses random number: 2044897763
+2 references word 31 (page 3) at time 16: Hit in frame 5
+2 uses random number: 1967513926
+2 references word 35 (page 3) at time 17: Hit in frame 5
+2 uses random number: 1365180540
+2 references word 36 (page 3) at time 18: Hit in frame 5
+2 uses random number: 1540383426
+3 references word 10 (page 1) at time 19: Hit in frame 4
+3 uses random number: 304089172
+3 references word 11 (page 1) at time 20: Hit in frame 4
+3 uses random number: 1303455736
+3 references word 12 (page 1) at time 21: Hit in frame 4
+3 uses random number: 35005211
+4 references word 4 (page 0) at time 22: Hit in frame 2
+4 uses random number: 521595368
+4 references word 5 (page 0) at time 23: Hit in frame 2
+4 uses random number: 294702567
+4 references word 6 (page 0) at time 24: Hit in frame 2
+4 uses random number: 1726956429
+4 uses random number: 336465782
+1 references word 19 (page 1) at time 25: Fault, using free frame 0.
+1 uses random number: 861021530
+1 references word 20 (page 2) at time 26: Hit in frame 7
+1 uses random number: 278722862
+1 references word 21 (page 2) at time 27: Hit in frame 7
+1 uses random number: 233665123
+2 references word 37 (page 3) at time 28: Hit in frame 5
+2 uses random number: 2145174067
+2 references word 1 (page 0) at time 29: Fault, evicting page 3 of 1 from frame 8.
+2 uses random number: 468703135
+2 references word 2 (page 0) at time 30: Hit in frame 8
+2 uses random number: 1101513929
+3 references word 13 (page 1) at time 31: Hit in frame 4
+3 uses random number: 1801979802
+3 references word 8 (page 0) at time 32: Hit in frame 3
+3 uses random number: 1315634022
+3 references word 9 (page 0) at time 33: Hit in frame 3
+3 uses random number: 635723058
+4 references word 22 (page 2) at time 34: Fault, evicting page 2 of 2 from frame 6.
+4 uses random number: 1369133069
+4 references word 26 (page 2) at time 35: Hit in frame 6
+4 uses random number: 1125898167
+4 references word 21 (page 2) at time 36: Hit in frame 6
+4 uses random number: 1059961393
+1 references word 22 (page 2) at time 37: Hit in frame 7
+1 uses random number: 2089018456
+1 references word 17 (page 1) at time 38: Hit in frame 0
+1 uses random number: 628175011
+1 references word 18 (page 1) at time 39: Hit in frame 0
+1 uses random number: 1656478042
+2 references word 3 (page 0) at time 40: Hit in frame 8
+2 uses random number: 1131176229
+2 references word 4 (page 0) at time 41: Hit in frame 8
+2 uses random number: 1653377373
+2 references word 8 (page 0) at time 42: Hit in frame 8
+2 uses random number: 859484421
+3 references word 10 (page 1) at time 43: Hit in frame 4
+3 uses random number: 1914544919
+3 references word 14 (page 1) at time 44: Hit in frame 4
+3 uses random number: 608413784
+3 references word 15 (page 1) at time 45: Hit in frame 4
+3 uses random number: 756898537
+4 references word 22 (page 2) at time 46: Hit in frame 6
+4 uses random number: 1734575198
+4 uses random number: 1973594324
+4 references word 4 (page 0) at time 47: Hit in frame 2
+4 uses random number: 149798315
+4 references word 5 (page 0) at time 48: Hit in frame 2
+4 uses random number: 2038664370
+4 uses random number: 1129566413
+1 references word 13 (page 1) at time 49: Hit in frame 0
+1 uses random number: 184803526
+1 references word 14 (page 1) at time 50: Hit in frame 0
+1 uses random number: 412776091
+1 references word 15 (page 1) at time 51: Hit in frame 0
+1 uses random number: 1424268980
+2 references word 9 (page 0) at time 52: Hit in frame 8
+2 uses random number: 1911759956
+2 references word 13 (page 1) at time 53: Fault, evicting page 3 of 4 from frame 1.
+2 uses random number: 749241873
+2 references word 14 (page 1) at time 54: Hit in frame 1
+2 uses random number: 137806862
+3 references word 16 (page 1) at time 55: Hit in frame 4
+3 uses random number: 42999170
+3 references word 17 (page 1) at time 56: Hit in frame 4
+3 uses random number: 982906996
+3 references word 18 (page 1) at time 57: Hit in frame 4
+3 uses random number: 135497281
+4 references word 13 (page 1) at time 58: Fault, evicting page 3 of 2 from frame 5.
+4 uses random number: 511702305
+4 references word 14 (page 1) at time 59: Hit in frame 5
+4 uses random number: 2084420925
+4 uses random number: 1937477084
+4 references word 4 (page 0) at time 60: Hit in frame 2
+4 uses random number: 1827336327
+4 uses random number: 572660336
+1 references word 16 (page 1) at time 61: Hit in frame 0
+1 uses random number: 1159126505
+1 references word 17 (page 1) at time 62: Hit in frame 0
+1 uses random number: 805750846
+1 references word 18 (page 1) at time 63: Hit in frame 0
+1 uses random number: 1632621729
+2 references word 15 (page 1) at time 64: Hit in frame 1
+2 uses random number: 1100661313
+2 references word 16 (page 1) at time 65: Hit in frame 1
+2 uses random number: 1433925857
+2 references word 17 (page 1) at time 66: Hit in frame 1
+2 uses random number: 1141616124
+3 references word 19 (page 1) at time 67: Hit in frame 4
+3 uses random number: 84353895
+3 references word 20 (page 2) at time 68: Fault, evicting page 0 of 3 from frame 3.
+3 uses random number: 939819582
+3 references word 21 (page 2) at time 69: Hit in frame 3
+3 uses random number: 2001100545
+4 references word 16 (page 1) at time 70: Hit in frame 5
+4 uses random number: 1998898814
+4 uses random number: 1548233367
+4 references word 7 (page 0) at time 71: Hit in frame 2
+4 uses random number: 610515434
+4 references word 8 (page 0) at time 72: Hit in frame 2
+4 uses random number: 1585990364
+1 references word 13 (page 1) at time 73: Hit in frame 0
+1 uses random number: 1374344043
+1 references word 14 (page 1) at time 74: Hit in frame 0
+1 uses random number: 760313750
+1 references word 15 (page 1) at time 75: Hit in frame 0
+1 uses random number: 1477171087
+2 references word 18 (page 1) at time 76: Hit in frame 1
+2 uses random number: 356426808
+2 references word 19 (page 1) at time 77: Hit in frame 1
+2 uses random number: 945117276
+2 references word 20 (page 2) at time 78: Fault, evicting page 2 of 1 from frame 7.
+2 uses random number: 1889947178
+3 references word 25 (page 2) at time 79: Hit in frame 3
+3 uses random number: 1780695788
+3 references word 20 (page 2) at time 80: Hit in frame 3
+3 uses random number: 709393584
+3 references word 21 (page 2) at time 81: Hit in frame 3
+3 uses random number: 491705403
+4 references word 12 (page 1) at time 82: Hit in frame 5
+4 uses random number: 1918502651
+4 uses random number: 752392754
+4 references word 34 (page 3) at time 83: Fault, evicting page 2 of 4 from frame 6.
+4 uses random number: 1474612399
+4 references word 38 (page 3) at time 84: Hit in frame 6
+4 uses random number: 2053999932
+4 uses random number: 1264095060
+1 references word 16 (page 1) at time 85: Hit in frame 0
+1 uses random number: 1411549676
+1 references word 17 (page 1) at time 86: Hit in frame 0
+1 uses random number: 1843993368
+1 references word 12 (page 1) at time 87: Hit in frame 0
+1 uses random number: 943947739
+2 references word 24 (page 2) at time 88: Hit in frame 7
+2 uses random number: 1984210012
+2 references word 28 (page 2) at time 89: Hit in frame 7
+2 uses random number: 855636226
+2 references word 29 (page 2) at time 90: Hit in frame 7
+2 uses random number: 1749698586
+3 references word 22 (page 2) at time 91: Hit in frame 3
+3 uses random number: 1469348094
+3 references word 23 (page 2) at time 92: Hit in frame 3
+3 uses random number: 1956297539
+3 references word 27 (page 2) at time 93: Hit in frame 3
+3 uses random number: 1036140795
+4 references word 20 (page 2) at time 94: Fault, evicting page 0 of 2 from frame 8.
+4 uses random number: 463480570
+4 references word 21 (page 2) at time 95: Hit in frame 8
+4 uses random number: 2040651434
+4 uses random number: 1975960378
+4 references word 18 (page 1) at time 96: Hit in frame 5
+4 uses random number: 317097467
+1 references word 13 (page 1) at time 97: Hit in frame 0
+1 uses random number: 1892066601
+1 references word 8 (page 0) at time 98: Fault, evicting page 1 of 3 from frame 4.
+1 uses random number: 1376710097
+1 references word 9 (page 0) at time 99: Hit in frame 4
+1 uses random number: 927612902
+2 references word 33 (page 3) at time 100: Fault, evicting page 0 of 4 from frame 2.
+2 uses random number: 1330573317
+2 references word 34 (page 3) at time 101: Hit in frame 2
+2 uses random number: 603570492
+2 references word 35 (page 3) at time 102: Hit in frame 2
+2 uses random number: 1687926652
+3 references word 28 (page 2) at time 103: Hit in frame 3
+3 uses random number: 660260756
+3 references word 29 (page 2) at time 104: Hit in frame 3
+3 uses random number: 959997301
+3 references word 30 (page 3) at time 105: Fault, evicting page 1 of 2 from frame 1.
+3 uses random number: 485560280
+4 references word 19 (page 1) at time 106: Hit in frame 5
+4 uses random number: 402724286
+4 references word 20 (page 2) at time 107: Hit in frame 8
+4 uses random number: 593209441
+4 references word 21 (page 2) at time 108: Hit in frame 8
+4 uses random number: 1194953865
+1 references word 10 (page 1) at time 109: Hit in frame 0
+1 uses random number: 894429689
+1 references word 11 (page 1) at time 110: Hit in frame 0
+1 uses random number: 364228444
+1 references word 12 (page 1) at time 111: Hit in frame 0
+1 uses random number: 1947346619
+2 references word 39 (page 3) at time 112: Hit in frame 2
+2 uses random number: 221558440
+2 references word 0 (page 0) at time 113: Fault, evicting page 3 of 4 from frame 6.
+2 uses random number: 270744729
+2 references word 1 (page 0) at time 114: Hit in frame 6
+2 uses random number: 1063958031
+3 references word 31 (page 3) at time 115: Hit in frame 1
+3 uses random number: 1633108117
+3 references word 26 (page 2) at time 116: Hit in frame 3
+3 uses random number: 2114738097
+3 references word 30 (page 3) at time 117: Hit in frame 1
+3 uses random number: 2007905771
+4 references word 16 (page 1) at time 118: Hit in frame 5
+4 uses random number: 1469834481
+4 references word 20 (page 2) at time 119: Hit in frame 8
+4 uses random number: 822890675
+4 references word 21 (page 2) at time 120: Hit in frame 8
+4 uses random number: 1610120709
+1 references word 7 (page 0) at time 121: Hit in frame 4
+1 uses random number: 791698927
+1 references word 8 (page 0) at time 122: Hit in frame 4
+1 uses random number: 631704567
+1 references word 9 (page 0) at time 123: Hit in frame 4
+1 uses random number: 498777856
+2 references word 2 (page 0) at time 124: Hit in frame 6
+2 uses random number: 1255179497
+2 references word 3 (page 0) at time 125: Hit in frame 6
+2 uses random number: 524872353
+2 references word 4 (page 0) at time 126: Hit in frame 6
+2 uses random number: 327254586
+3 references word 34 (page 3) at time 127: Hit in frame 1
+3 uses random number: 1572276965
+3 references word 35 (page 3) at time 128: Hit in frame 1
+3 uses random number: 269455306
+3 references word 36 (page 3) at time 129: Hit in frame 1
+3 uses random number: 1703964683
+4 references word 25 (page 2) at time 130: Hit in frame 8
+4 uses random number: 352406219
+4 references word 26 (page 2) at time 131: Hit in frame 8
+4 uses random number: 1600028624
+4 references word 30 (page 3) at time 132: Fault, evicting page 2 of 2 from frame 7.
+4 uses random number: 160051528
+1 references word 10 (page 1) at time 133: Hit in frame 0
+1 uses random number: 2040332871
+1 references word 5 (page 0) at time 134: Hit in frame 4
+1 uses random number: 112805732
+1 references word 6 (page 0) at time 135: Hit in frame 4
+1 uses random number: 1120048829
+2 references word 5 (page 0) at time 136: Hit in frame 6
+2 uses random number: 378409503
+2 references word 6 (page 0) at time 137: Hit in frame 6
+2 uses random number: 515530019
+2 references word 7 (page 0) at time 138: Hit in frame 6
+2 uses random number: 1713258270
+3 references word 31 (page 3) at time 139: Hit in frame 1
+3 uses random number: 1573363368
+3 references word 32 (page 3) at time 140: Hit in frame 1
+3 uses random number: 1409959708
+3 references word 33 (page 3) at time 141: Hit in frame 1
+3 uses random number: 2077486715
+4 references word 31 (page 3) at time 142: Hit in frame 7
+4 uses random number: 1373226340
+4 references word 35 (page 3) at time 143: Hit in frame 7
+4 uses random number: 1631518149
+4 uses random number: 200747796
+4 references word 36 (page 3) at time 144: Hit in frame 7
+4 uses random number: 289700723
+1 references word 7 (page 0) at time 145: Hit in frame 4
+1 uses random number: 1117142618
+1 references word 8 (page 0) at time 146: Hit in frame 4
+1 uses random number: 168002245
+1 references word 9 (page 0) at time 147: Hit in frame 4
+1 uses random number: 150122846
+2 references word 11 (page 1) at time 148: Fault, evicting page 3 of 2 from frame 2.
+2 uses random number: 439493451
+2 references word 12 (page 1) at time 149: Hit in frame 2
+2 uses random number: 990892921
+2 references word 13 (page 1) at time 150: Hit in frame 2
+2 uses random number: 1760243555
+3 references word 37 (page 3) at time 151: Hit in frame 1
+3 uses random number: 1231192379
+3 references word 38 (page 3) at time 152: Hit in frame 1
+3 uses random number: 1622597488
+3 references word 33 (page 3) at time 153: Hit in frame 1
+3 uses random number: 111537764
+4 references word 37 (page 3) at time 154: Hit in frame 7
+4 uses random number: 338888228
+4 references word 38 (page 3) at time 155: Hit in frame 7
+4 uses random number: 2147469841
+4 uses random number: 438792350
+4 references word 30 (page 3) at time 156: Hit in frame 7
+4 uses random number: 1911165193
+4 uses random number: 269441500
+1 references word 10 (page 1) at time 157: Hit in frame 0
+1 uses random number: 2142757034
+1 references word 5 (page 0) at time 158: Hit in frame 4
+1 uses random number: 116087764
+1 references word 6 (page 0) at time 159: Hit in frame 4
+1 uses random number: 1869470124
+2 references word 17 (page 1) at time 160: Hit in frame 2
+2 uses random number: 155324914
+2 references word 18 (page 1) at time 161: Hit in frame 2
+2 uses random number: 8936987
+2 references word 19 (page 1) at time 162: Hit in frame 2
+2 uses random number: 1982275856
+3 references word 34 (page 3) at time 163: Hit in frame 1
+3 uses random number: 1275373743
+3 references word 35 (page 3) at time 164: Hit in frame 1
+3 uses random number: 387346491
+3 references word 36 (page 3) at time 165: Hit in frame 1
+3 uses random number: 350322227
+4 references word 20 (page 2) at time 166: Hit in frame 8
+4 uses random number: 841148365
+4 references word 21 (page 2) at time 167: Hit in frame 8
+4 uses random number: 1960709859
+4 uses random number: 1760281936
+4 references word 16 (page 1) at time 168: Hit in frame 5
+4 uses random number: 771151432
+1 references word 1 (page 0) at time 169: Hit in frame 4
+1 uses random number: 1186452551
+1 references word 2 (page 0) at time 170: Hit in frame 4
+1 uses random number: 1244316437
+1 references word 3 (page 0) at time 171: Hit in frame 4
+1 uses random number: 971899228
+2 references word 23 (page 2) at time 172: Fault, evicting page 2 of 3 from frame 3.
+2 uses random number: 1476153275
+2 references word 24 (page 2) at time 173: Hit in frame 3
+2 uses random number: 213975407
+2 references word 25 (page 2) at time 174: Hit in frame 3
+2 uses random number: 1139901474
+3 references word 37 (page 3) at time 175: Hit in frame 1
+3 uses random number: 1626276121
+3 references word 32 (page 3) at time 176: Hit in frame 1
+3 uses random number: 653468858
+3 references word 33 (page 3) at time 177: Hit in frame 1
+3 uses random number: 2130794395
+4 references word 17 (page 1) at time 178: Hit in frame 5
+4 uses random number: 1239036029
+4 references word 12 (page 1) at time 179: Hit in frame 5
+4 uses random number: 1884661237
+4 uses random number: 1605908235
+4 references word 35 (page 3) at time 180: Hit in frame 7
+4 uses random number: 1350573793
+1 references word 4 (page 0) at time 181: Hit in frame 4
+1 uses random number: 76065818
+1 references word 5 (page 0) at time 182: Hit in frame 4
+1 uses random number: 1605894428
+1 references word 6 (page 0) at time 183: Hit in frame 4
+1 uses random number: 1789366143
+2 references word 26 (page 2) at time 184: Hit in frame 3
+2 uses random number: 1987231011
+2 references word 30 (page 3) at time 185: Fault, evicting page 0 of 2 from frame 6.
+2 uses random number: 1875335928
+2 references word 34 (page 3) at time 186: Hit in frame 6
+2 uses random number: 1784639529
+3 references word 37 (page 3) at time 187: Hit in frame 1
+3 uses random number: 2103318776
+3 references word 1 (page 0) at time 188: Fault, evicting page 1 of 1 from frame 0.
+3 uses random number: 1597322404
+3 references word 2 (page 0) at time 189: Hit in frame 0
+3 uses random number: 1939964443
+4 references word 39 (page 3) at time 190: Hit in frame 7
+4 uses random number: 2112255763
+4 uses random number: 1432114613
+4 references word 13 (page 1) at time 191: Hit in frame 5
+4 uses random number: 1067854538
+4 references word 14 (page 1) at time 192: Hit in frame 5
+4 uses random number: 352118606
+1 references word 1 (page 0) at time 193: Hit in frame 4
+1 uses random number: 1782436840
+1 references word 36 (page 3) at time 194: Fault, evicting page 1 of 2 from frame 2.
+1 uses random number: 1909002904
+1 references word 31 (page 3) at time 195: Hit in frame 2
+1 uses random number: 165344818
+2 references word 38 (page 3) at time 196: Hit in frame 6
+2 uses random number: 1395235128
+2 references word 39 (page 3) at time 197: Hit in frame 6
+2 uses random number: 532670688
+2 references word 0 (page 0) at time 198: Fault, evicting page 2 of 4 from frame 8.
+2 uses random number: 1351797369
+3 references word 6 (page 0) at time 199: Hit in frame 0
+3 uses random number: 492067917
+3 references word 7 (page 0) at time 200: Hit in frame 0
+3 uses random number: 1504569917
+3 references word 8 (page 0) at time 201: Hit in frame 0
+3 uses random number: 680466996
+4 references word 15 (page 1) at time 202: Hit in frame 5
+4 uses random number: 706043324
+4 references word 16 (page 1) at time 203: Hit in frame 5
+4 uses random number: 496987743
+4 references word 17 (page 1) at time 204: Hit in frame 5
+4 uses random number: 159259470
+1 references word 32 (page 3) at time 205: Hit in frame 2
+1 uses random number: 1359512183
+1 references word 33 (page 3) at time 206: Hit in frame 2
+1 uses random number: 480298490
+1 references word 34 (page 3) at time 207: Hit in frame 2
+1 uses random number: 1398295499
+2 references word 1 (page 0) at time 208: Hit in frame 8
+2 uses random number: 1096689772
+2 references word 2 (page 0) at time 209: Hit in frame 8
+2 uses random number: 2086206725
+2 references word 6 (page 0) at time 210: Hit in frame 8
+2 uses random number: 601385644
+3 references word 9 (page 0) at time 211: Hit in frame 0
+3 uses random number: 1172755590
+3 references word 10 (page 1) at time 212: Fault, evicting page 2 of 2 from frame 3.
+3 uses random number: 1544617505
+3 references word 11 (page 1) at time 213: Hit in frame 3
+3 uses random number: 243268139
+4 references word 18 (page 1) at time 214: Hit in frame 5
+4 uses random number: 1012502954
+4 references word 19 (page 1) at time 215: Hit in frame 5
+4 uses random number: 1272469786
+4 references word 14 (page 1) at time 216: Hit in frame 5
+4 uses random number: 2027907669
+4 uses random number: 968338082
+1 references word 35 (page 3) at time 217: Hit in frame 2
+1 uses random number: 722308542
+1 references word 36 (page 3) at time 218: Hit in frame 2
+1 uses random number: 1820388464
+1 references word 31 (page 3) at time 219: Hit in frame 2
+1 uses random number: 933110197
+2 references word 7 (page 0) at time 220: Hit in frame 8
+2 uses random number: 6939507
+2 references word 8 (page 0) at time 221: Hit in frame 8
+2 uses random number: 740759355
+2 references word 9 (page 0) at time 222: Hit in frame 8
+2 uses random number: 1285228804
+3 references word 12 (page 1) at time 223: Hit in frame 3
+3 uses random number: 1789376348
+3 references word 7 (page 0) at time 224: Hit in frame 0
+3 uses random number: 502278611
+3 references word 8 (page 0) at time 225: Hit in frame 0
+3 uses random number: 1450573622
+4 references word 2 (page 0) at time 226: Fault, evicting page 3 of 3 from frame 1.
+4 uses random number: 1037127828
+4 references word 3 (page 0) at time 227: Hit in frame 1
+4 uses random number: 1034949299
+4 references word 4 (page 0) at time 228: Hit in frame 1
+4 uses random number: 654887343
+1 references word 32 (page 3) at time 229: Hit in frame 2
+1 uses random number: 1529195746
+1 references word 33 (page 3) at time 230: Hit in frame 2
+1 uses random number: 392035568
+1 references word 34 (page 3) at time 231: Hit in frame 2
+1 uses random number: 1335354340
+2 references word 10 (page 1) at time 232: Fault, evicting page 3 of 4 from frame 7.
+2 uses random number: 87755422
+2 references word 11 (page 1) at time 233: Hit in frame 7
+2 uses random number: 889023311
+2 references word 12 (page 1) at time 234: Hit in frame 7
+2 uses random number: 1494613810
+3 references word 9 (page 0) at time 235: Hit in frame 0
+3 uses random number: 1447267605
+3 references word 10 (page 1) at time 236: Hit in frame 3
+3 uses random number: 1369321801
+3 references word 11 (page 1) at time 237: Hit in frame 3
+3 uses random number: 745425661
+4 references word 5 (page 0) at time 238: Hit in frame 1
+4 uses random number: 396473730
+4 references word 6 (page 0) at time 239: Hit in frame 1
+4 uses random number: 1308044878
+4 references word 1 (page 0) at time 240: Hit in frame 1
+4 uses random number: 1346811305
+1 references word 35 (page 3) at time 241: Hit in frame 2
+1 uses random number: 1569229320
+1 references word 36 (page 3) at time 242: Hit in frame 2
+1 uses random number: 705178736
+1 references word 37 (page 3) at time 243: Hit in frame 2
+1 uses random number: 1590079444
+2 references word 13 (page 1) at time 244: Hit in frame 7
+2 uses random number: 434248626
+2 references word 14 (page 1) at time 245: Hit in frame 7
+2 uses random number: 1977648522
+2 references word 18 (page 1) at time 246: Hit in frame 7
+2 uses random number: 1470503465
+3 references word 12 (page 1) at time 247: Hit in frame 3
+3 uses random number: 1402586708
+3 references word 13 (page 1) at time 248: Hit in frame 3
+3 uses random number: 552473416
+3 references word 14 (page 1) at time 249: Hit in frame 3
+3 uses random number: 1143408282
+4 references word 5 (page 0) at time 250: Hit in frame 1
+4 uses random number: 188213258
+4 references word 6 (page 0) at time 251: Hit in frame 1
+4 uses random number: 559412924
+4 references word 7 (page 0) at time 252: Hit in frame 1
+4 uses random number: 1884167637
+4 uses random number: 1473442062
+1 references word 38 (page 3) at time 253: Hit in frame 2
+1 uses random number: 201305624
+1 references word 39 (page 3) at time 254: Hit in frame 2
+1 uses random number: 238962600
+1 references word 0 (page 0) at time 255: Hit in frame 4
+1 uses random number: 776532036
+2 references word 19 (page 1) at time 256: Hit in frame 7
+2 uses random number: 1238433452
+2 references word 20 (page 2) at time 257: Fault, evicting page 3 of 2 from frame 6.
+2 uses random number: 1273911899
+2 references word 21 (page 2) at time 258: Hit in frame 6
+2 uses random number: 1431419379
+3 references word 15 (page 1) at time 259: Hit in frame 3
+3 uses random number: 620145550
+3 references word 16 (page 1) at time 260: Hit in frame 3
+3 uses random number: 1665947468
+3 references word 11 (page 1) at time 261: Hit in frame 3
+3 uses random number: 619290071
+4 references word 22 (page 2) at time 262: Fault, evicting page 1 of 4 from frame 5.
+4 uses random number: 707900973
+4 references word 23 (page 2) at time 263: Hit in frame 5
+4 uses random number: 407487131
+4 references word 24 (page 2) at time 264: Hit in frame 5
+4 uses random number: 2113903881
+4 uses random number: 7684930
+1 references word 1 (page 0) at time 265: Hit in frame 4
+1 uses random number: 1776808933
+1 references word 36 (page 3) at time 266: Hit in frame 2
+1 uses random number: 711845894
+1 references word 37 (page 3) at time 267: Hit in frame 2
+1 uses random number: 404158660
+2 references word 22 (page 2) at time 268: Hit in frame 6
+2 uses random number: 937370163
+2 references word 23 (page 2) at time 269: Hit in frame 6
+2 uses random number: 2058657199
+2 references word 27 (page 2) at time 270: Hit in frame 6
+2 uses random number: 1973387981
+3 references word 12 (page 1) at time 271: Hit in frame 3
+3 uses random number: 1642548899
+3 references word 7 (page 0) at time 272: Hit in frame 0
+3 uses random number: 1501252996
+3 references word 8 (page 0) at time 273: Hit in frame 0
+3 uses random number: 260152959
+4 references word 10 (page 1) at time 274: Fault, evicting page 0 of 2 from frame 8.
+4 uses random number: 1472713773
+4 references word 14 (page 1) at time 275: Hit in frame 8
+4 uses random number: 824272813
+4 references word 15 (page 1) at time 276: Hit in frame 8
+4 uses random number: 1662739668
+4 uses random number: 2025187190
+1 references word 38 (page 3) at time 277: Hit in frame 2
+1 uses random number: 1967681095
+1 references word 33 (page 3) at time 278: Hit in frame 2
+1 uses random number: 1850952926
+1 references word 28 (page 2) at time 279: Fault, evicting page 0 of 4 from frame 1.
+1 uses random number: 437116466
+2 references word 31 (page 3) at time 280: Fault, evicting page 1 of 2 from frame 7.
+2 uses random number: 1704365084
+2 references word 35 (page 3) at time 281: Hit in frame 7
+2 uses random number: 1176911340
+2 references word 36 (page 3) at time 282: Hit in frame 7
+2 uses random number: 638422090
+3 references word 9 (page 0) at time 283: Hit in frame 0
+3 uses random number: 1943327684
+3 references word 13 (page 1) at time 284: Hit in frame 3
+3 uses random number: 1953443376
+3 references word 17 (page 1) at time 285: Hit in frame 3
+3 uses random number: 1876855542
+4 references word 30 (page 3) at time 286: Fault, evicting page 2 of 4 from frame 5.
+4 uses random number: 1069755936
+4 references word 31 (page 3) at time 287: Hit in frame 5
+4 uses random number: 1237379107
+4 references word 26 (page 2) at time 288: Fault, evicting page 0 of 1 from frame 4.
+4 uses random number: 349517445
+1 references word 29 (page 2) at time 289: Hit in frame 1
+1 uses random number: 588219756
+1 references word 30 (page 3) at time 290: Hit in frame 2
+1 uses random number: 1856669179
+1 references word 25 (page 2) at time 291: Hit in frame 1
+1 uses random number: 1057418418
+2 references word 37 (page 3) at time 292: Hit in frame 7
+2 uses random number: 995706887
+2 references word 38 (page 3) at time 293: Hit in frame 7
+2 uses random number: 1823089412
+2 references word 2 (page 0) at time 294: Fault, evicting page 2 of 2 from frame 6.
+2 uses random number: 1065103348
+3 references word 12 (page 1) at time 295: Hit in frame 3
+3 uses random number: 625032172
+3 references word 13 (page 1) at time 296: Hit in frame 3
+3 uses random number: 387451659
+3 references word 14 (page 1) at time 297: Hit in frame 3
+3 uses random number: 1469262009
+4 references word 27 (page 2) at time 298: Hit in frame 4
+4 uses random number: 1562402336
+4 references word 31 (page 3) at time 299: Hit in frame 5
+4 uses random number: 298625210
+4 references word 32 (page 3) at time 300: Hit in frame 5
+4 uses random number: 1295166342
+1 references word 26 (page 2) at time 301: Hit in frame 1
+1 uses random number: 1057467587
+1 references word 27 (page 2) at time 302: Hit in frame 1
+1 uses random number: 1799878206
+1 references word 22 (page 2) at time 303: Hit in frame 1
+1 uses random number: 1555319301
+2 references word 3 (page 0) at time 304: Hit in frame 6
+2 uses random number: 382697713
+2 references word 4 (page 0) at time 305: Hit in frame 6
+2 uses random number: 476667372
+2 references word 5 (page 0) at time 306: Hit in frame 6
+2 uses random number: 1070575321
+3 references word 15 (page 1) at time 307: Hit in frame 3
+3 uses random number: 260401255
+3 references word 16 (page 1) at time 308: Hit in frame 3
+3 uses random number: 296864819
+3 references word 17 (page 1) at time 309: Hit in frame 3
+3 uses random number: 774044599
+4 references word 27 (page 2) at time 310: Hit in frame 4
+4 uses random number: 697517721
+4 references word 28 (page 2) at time 311: Hit in frame 4
+4 uses random number: 2001229904
+4 uses random number: 1950955939
+4 references word 19 (page 1) at time 312: Hit in frame 8
+4 uses random number: 1335939811
+1 references word 23 (page 2) at time 313: Hit in frame 1
+1 uses random number: 1797073940
+1 references word 18 (page 1) at time 314: Fault, evicting page 0 of 3 from frame 0.
+1 uses random number: 1756915667
+1 references word 13 (page 1) at time 315: Hit in frame 0
+1 uses random number: 1065311705
+2 references word 6 (page 0) at time 316: Hit in frame 6
+2 uses random number: 719346228
+2 references word 7 (page 0) at time 317: Hit in frame 6
+2 uses random number: 846811127
+2 references word 8 (page 0) at time 318: Hit in frame 6
+2 uses random number: 1414829150
+3 references word 18 (page 1) at time 319: Hit in frame 3
+3 uses random number: 1307565984
+3 references word 19 (page 1) at time 320: Hit in frame 3
+3 uses random number: 555996658
+3 references word 20 (page 2) at time 321: Fault, evicting page 3 of 1 from frame 2.
+3 uses random number: 324763920
+4 references word 14 (page 1) at time 322: Hit in frame 8
+4 uses random number: 155789224
+4 references word 15 (page 1) at time 323: Hit in frame 8
+4 uses random number: 231602422
+4 references word 16 (page 1) at time 324: Hit in frame 8
+4 uses random number: 1389867269
+1 references word 14 (page 1) at time 325: Hit in frame 0
+1 uses random number: 780821396
+1 references word 15 (page 1) at time 326: Hit in frame 0
+1 uses random number: 619054081
+1 references word 16 (page 1) at time 327: Hit in frame 0
+1 uses random number: 711645630
+2 references word 9 (page 0) at time 328: Hit in frame 6
+2 uses random number: 195740084
+2 references word 10 (page 1) at time 329: Fault, evicting page 3 of 2 from frame 7.
+2 uses random number: 917679292
+2 references word 11 (page 1) at time 330: Hit in frame 7
+2 uses random number: 2006811972
+3 references word 21 (page 2) at time 331: Hit in frame 2
+3 uses random number: 1253207672
+3 references word 22 (page 2) at time 332: Hit in frame 2
+3 uses random number: 570073850
+3 references word 23 (page 2) at time 333: Hit in frame 2
+3 uses random number: 1414647625
+4 references word 20 (page 2) at time 334: Hit in frame 4
+4 uses random number: 1635905385
+4 uses random number: 1046741222
+4 references word 22 (page 2) at time 335: Hit in frame 4
+4 uses random number: 337739299
+4 references word 23 (page 2) at time 336: Hit in frame 4
+4 uses random number: 1896306640
+4 uses random number: 1343606042
+1 references word 17 (page 1) at time 337: Hit in frame 0
+1 uses random number: 1111783898
+1 references word 18 (page 1) at time 338: Hit in frame 0
+1 uses random number: 446340713
+1 references word 19 (page 1) at time 339: Hit in frame 0
+1 uses random number: 1197352298
+2 references word 15 (page 1) at time 340: Hit in frame 7
+2 uses random number: 915256190
+2 references word 16 (page 1) at time 341: Hit in frame 7
+2 uses random number: 1782280524
+2 references word 20 (page 2) at time 342: Fault, evicting page 3 of 4 from frame 5.
+2 uses random number: 846942590
+3 references word 24 (page 2) at time 343: Hit in frame 2
+3 uses random number: 524688209
+3 references word 25 (page 2) at time 344: Hit in frame 2
+3 uses random number: 700108581
+3 references word 26 (page 2) at time 345: Hit in frame 2
+3 uses random number: 1566288819
+4 references word 2 (page 0) at time 346: Fault, evicting page 2 of 1 from frame 1.
+4 uses random number: 1371499336
+4 references word 6 (page 0) at time 347: Hit in frame 1
+4 uses random number: 2114937732
+4 uses random number: 726371155
+4 references word 35 (page 3) at time 348: Fault, evicting page 1 of 3 from frame 3.
+4 uses random number: 1927495994
+4 uses random number: 292218004
+1 references word 20 (page 2) at time 349: Fault, evicting page 1 of 4 from frame 8.
+1 uses random number: 882160379
+1 references word 21 (page 2) at time 350: Hit in frame 8
+1 uses random number: 11614769
+1 references word 22 (page 2) at time 351: Hit in frame 8
+1 uses random number: 1682085273
+2 references word 21 (page 2) at time 352: Hit in frame 5
+2 uses random number: 1662981776
+2 references word 25 (page 2) at time 353: Hit in frame 5
+2 uses random number: 630668850
+2 references word 26 (page 2) at time 354: Hit in frame 5
+2 uses random number: 246247255
+3 references word 27 (page 2) at time 355: Hit in frame 2
+3 uses random number: 1858721860
+3 references word 22 (page 2) at time 356: Hit in frame 2
+3 uses random number: 1548348142
+3 references word 23 (page 2) at time 357: Hit in frame 2
+3 uses random number: 105575579
+4 references word 4 (page 0) at time 358: Hit in frame 1
+4 uses random number: 964445884
+4 references word 5 (page 0) at time 359: Hit in frame 1
+4 uses random number: 2118421993
+4 uses random number: 1520223205
+4 references word 5 (page 0) at time 360: Hit in frame 1
+4 uses random number: 452867621
+1 references word 17 (page 1) at time 361: Hit in frame 0
+1 uses random number: 1017679567
+1 references word 18 (page 1) at time 362: Hit in frame 0
+1 uses random number: 1857962504
+1 references word 13 (page 1) at time 363: Hit in frame 0
+1 uses random number: 201690613
+2 references word 27 (page 2) at time 364: Hit in frame 5
+2 uses random number: 213801961
+2 references word 28 (page 2) at time 365: Hit in frame 5
+2 uses random number: 822262754
+2 references word 29 (page 2) at time 366: Hit in frame 5
+2 uses random number: 648031326
+3 references word 24 (page 2) at time 367: Hit in frame 2
+3 uses random number: 1411154259
+3 references word 25 (page 2) at time 368: Hit in frame 2
+3 uses random number: 1737518944
+3 references word 20 (page 2) at time 369: Hit in frame 2
+3 uses random number: 282828202
+4 references word 6 (page 0) at time 370: Hit in frame 1
+4 uses random number: 110613202
+4 references word 7 (page 0) at time 371: Hit in frame 1
+4 uses random number: 114723506
+4 references word 8 (page 0) at time 372: Hit in frame 1
+4 uses random number: 982936784
+1 references word 14 (page 1) at time 373: Hit in frame 0
+1 uses random number: 1676902021
+1 references word 9 (page 0) at time 374: Fault, evicting page 0 of 2 from frame 6.
+1 uses random number: 1486222842
+1 references word 10 (page 1) at time 375: Hit in frame 0
+1 uses random number: 950390868
+2 references word 30 (page 3) at time 376: Fault, evicting page 2 of 4 from frame 4.
+2 uses random number: 255789528
+2 references word 31 (page 3) at time 377: Hit in frame 4
+2 uses random number: 1266235189
+2 references word 32 (page 3) at time 378: Hit in frame 4
+2 uses random number: 1242608872
+3 references word 21 (page 2) at time 379: Hit in frame 2
+3 uses random number: 1137949908
+3 references word 22 (page 2) at time 380: Hit in frame 2
+3 uses random number: 1277849958
+3 references word 23 (page 2) at time 381: Hit in frame 2
+3 uses random number: 777210498
+4 references word 9 (page 0) at time 382: Hit in frame 1
+4 uses random number: 653448036
+4 references word 10 (page 1) at time 383: Fault, evicting page 1 of 2 from frame 7.
+4 uses random number: 1908518808
+4 uses random number: 1023457753
+4 references word 33 (page 3) at time 384: Hit in frame 3
+4 uses random number: 364686248
+1 references word 11 (page 1) at time 385: Hit in frame 0
+1 uses random number: 1309383303
+1 references word 12 (page 1) at time 386: Hit in frame 0
+1 uses random number: 1129033333
+1 references word 13 (page 1) at time 387: Hit in frame 0
+1 uses random number: 1329132133
+2 references word 33 (page 3) at time 388: Hit in frame 4
+2 uses random number: 1280321648
+2 references word 34 (page 3) at time 389: Hit in frame 4
+2 uses random number: 501772890
+2 references word 35 (page 3) at time 390: Hit in frame 4
+2 uses random number: 1781999754
+3 references word 24 (page 2) at time 391: Hit in frame 2
+3 uses random number: 150517567
+3 references word 25 (page 2) at time 392: Hit in frame 2
+3 uses random number: 212251746
+3 references word 26 (page 2) at time 393: Hit in frame 2
+3 uses random number: 1983690368
+4 references word 34 (page 3) at time 394: Hit in frame 3
+4 uses random number: 364319529
+4 references word 35 (page 3) at time 395: Hit in frame 3
+4 uses random number: 1034514500
+4 references word 36 (page 3) at time 396: Hit in frame 3
+4 uses random number: 484238046
+1 references word 14 (page 1) at time 397: Hit in frame 0
+1 uses random number: 1775473788
+2 references word 39 (page 3) at time 398: Hit in frame 4
+2 uses random number: 624549797
+3 references word 30 (page 3) at time 399: Fault, evicting page 2 of 1 from frame 8.
+3 uses random number: 767066249
+4 references word 37 (page 3) at time 400: Hit in frame 3
+4 uses random number: 1886086990
+4 uses random number: 739273303
+
+Process 1 had 9 faults and 100.14285714285714 average residency.
+Process 2 had 18 faults and 54.6875 average residency.
+Process 3 had 8 faults and 106.16666666666667 average residency.
+Process 4 had 15 faults and 76.25 average residency.
+
+The total number of faults is 50 and the overall average residency is 76.29268292682927.

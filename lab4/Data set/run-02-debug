@@ -1,0 +1,114 @@
+The machine size is 10.
+The page size is 10.
+The process size is 10.
+The job mix number is 1.
+The number of references per process is 100.
+The replacement algorithm is lru.
+The level of debugging output is 1
+
+1 references word 1 (page 0) at time 1: Fault, using free frame 0.
+1 references word 2 (page 0) at time 2: Hit in frame 0
+1 references word 3 (page 0) at time 3: Hit in frame 0
+1 references word 4 (page 0) at time 4: Hit in frame 0
+1 references word 5 (page 0) at time 5: Hit in frame 0
+1 references word 6 (page 0) at time 6: Hit in frame 0
+1 references word 7 (page 0) at time 7: Hit in frame 0
+1 references word 8 (page 0) at time 8: Hit in frame 0
+1 references word 9 (page 0) at time 9: Hit in frame 0
+1 references word 0 (page 0) at time 10: Hit in frame 0
+1 references word 1 (page 0) at time 11: Hit in frame 0
+1 references word 2 (page 0) at time 12: Hit in frame 0
+1 references word 3 (page 0) at time 13: Hit in frame 0
+1 references word 4 (page 0) at time 14: Hit in frame 0
+1 references word 5 (page 0) at time 15: Hit in frame 0
+1 references word 6 (page 0) at time 16: Hit in frame 0
+1 references word 7 (page 0) at time 17: Hit in frame 0
+1 references word 8 (page 0) at time 18: Hit in frame 0
+1 references word 9 (page 0) at time 19: Hit in frame 0
+1 references word 0 (page 0) at time 20: Hit in frame 0
+1 references word 1 (page 0) at time 21: Hit in frame 0
+1 references word 2 (page 0) at time 22: Hit in frame 0
+1 references word 3 (page 0) at time 23: Hit in frame 0
+1 references word 4 (page 0) at time 24: Hit in frame 0
+1 references word 5 (page 0) at time 25: Hit in frame 0
+1 references word 6 (page 0) at time 26: Hit in frame 0
+1 references word 7 (page 0) at time 27: Hit in frame 0
+1 references word 8 (page 0) at time 28: Hit in frame 0
+1 references word 9 (page 0) at time 29: Hit in frame 0
+1 references word 0 (page 0) at time 30: Hit in frame 0
+1 references word 1 (page 0) at time 31: Hit in frame 0
+1 references word 2 (page 0) at time 32: Hit in frame 0
+1 references word 3 (page 0) at time 33: Hit in frame 0
+1 references word 4 (page 0) at time 34: Hit in frame 0
+1 references word 5 (page 0) at time 35: Hit in frame 0
+1 references word 6 (page 0) at time 36: Hit in frame 0
+1 references word 7 (page 0) at time 37: Hit in frame 0
+1 references word 8 (page 0) at time 38: Hit in frame 0
+1 references word 9 (page 0) at time 39: Hit in frame 0
+1 references word 0 (page 0) at time 40: Hit in frame 0
+1 references word 1 (page 0) at time 41: Hit in frame 0
+1 references word 2 (page 0) at time 42: Hit in frame 0
+1 references word 3 (page 0) at time 43: Hit in frame 0
+1 references word 4 (page 0) at time 44: Hit in frame 0
+1 references word 5 (page 0) at time 45: Hit in frame 0
+1 references word 6 (page 0) at time 46: Hit in frame 0
+1 references word 7 (page 0) at time 47: Hit in frame 0
+1 references word 8 (page 0) at time 48: Hit in frame 0
+1 references word 9 (page 0) at time 49: Hit in frame 0
+1 references word 0 (page 0) at time 50: Hit in frame 0
+1 references word 1 (page 0) at time 51: Hit in frame 0
+1 references word 2 (page 0) at time 52: Hit in frame 0
+1 references word 3 (page 0) at time 53: Hit in frame 0
+1 references word 4 (page 0) at time 54: Hit in frame 0
+1 references word 5 (page 0) at time 55: Hit in frame 0
+1 references word 6 (page 0) at time 56: Hit in frame 0
+1 references word 7 (page 0) at time 57: Hit in frame 0
+1 references word 8 (page 0) at time 58: Hit in frame 0
+1 references word 9 (page 0) at time 59: Hit in frame 0
+1 references word 0 (page 0) at time 60: Hit in frame 0
+1 references word 1 (page 0) at time 61: Hit in frame 0
+1 references word 2 (page 0) at time 62: Hit in frame 0
+1 references word 3 (page 0) at time 63: Hit in frame 0
+1 references word 4 (page 0) at time 64: Hit in frame 0
+1 references word 5 (page 0) at time 65: Hit in frame 0
+1 references word 6 (page 0) at time 66: Hit in frame 0
+1 references word 7 (page 0) at time 67: Hit in frame 0
+1 references word 8 (page 0) at time 68: Hit in frame 0
+1 references word 9 (page 0) at time 69: Hit in frame 0
+1 references word 0 (page 0) at time 70: Hit in frame 0
+1 references word 1 (page 0) at time 71: Hit in frame 0
+1 references word 2 (page 0) at time 72: Hit in frame 0
+1 references word 3 (page 0) at time 73: Hit in frame 0
+1 references word 4 (page 0) at time 74: Hit in frame 0
+1 references word 5 (page 0) at time 75: Hit in frame 0
+1 references word 6 (page 0) at time 76: Hit in frame 0
+1 references word 7 (page 0) at time 77: Hit in frame 0
+1 references word 8 (page 0) at time 78: Hit in frame 0
+1 references word 9 (page 0) at time 79: Hit in frame 0
+1 references word 0 (page 0) at time 80: Hit in frame 0
+1 references word 1 (page 0) at time 81: Hit in frame 0
+1 references word 2 (page 0) at time 82: Hit in frame 0
+1 references word 3 (page 0) at time 83: Hit in frame 0
+1 references word 4 (page 0) at time 84: Hit in frame 0
+1 references word 5 (page 0) at time 85: Hit in frame 0
+1 references word 6 (page 0) at time 86: Hit in frame 0
+1 references word 7 (page 0) at time 87: Hit in frame 0
+1 references word 8 (page 0) at time 88: Hit in frame 0
+1 references word 9 (page 0) at time 89: Hit in frame 0
+1 references word 0 (page 0) at time 90: Hit in frame 0
+1 references word 1 (page 0) at time 91: Hit in frame 0
+1 references word 2 (page 0) at time 92: Hit in frame 0
+1 references word 3 (page 0) at time 93: Hit in frame 0
+1 references word 4 (page 0) at time 94: Hit in frame 0
+1 references word 5 (page 0) at time 95: Hit in frame 0
+1 references word 6 (page 0) at time 96: Hit in frame 0
+1 references word 7 (page 0) at time 97: Hit in frame 0
+1 references word 8 (page 0) at time 98: Hit in frame 0
+1 references word 9 (page 0) at time 99: Hit in frame 0
+1 references word 0 (page 0) at time 100: Hit in frame 0
+
+Process 1 had 1 faults.
+     With no evictions, the average residence is undefined.
+
+The total number of faults is 1.
+     With no evictions, the overall average residence is undefined.
