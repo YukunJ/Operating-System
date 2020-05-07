@@ -23,3 +23,11 @@ Contents:
                  
                  2. Banker's algorithm
                
+### 4. Pager. Language: C++ Date: 04/25/2020
+   Algorithms:
+   
+                 1. First-In-First-Out
+                 
+                 2. Least-Frequently-Used
+                 
+                 3. Random
