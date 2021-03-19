@@ -1,5 +1,5 @@
 # Operating-Systems-Spring-2020
-&lt;CSCI-UA 202: Operating Systems> Spring 2020
+&lt;CSCI-UA 202: Operating Systems> Spring 2020 at NYU Courant, when I was a junior undergrad.
 
 Contents:
 ### 1. Two-Pass Linker. Language: C Data: 02/25/2020
